@@ -1,0 +1,61 @@
+{
+    "Ledger_Menu": "#NavbarTransactionMenuLedgerModule",
+    "Cash_Ledger_Menu": "#NavbarTransactionMenuLedgerModuleCashLedgerPage",
+    "Date": "#CashLedgerListDatePickerForFilter",
+    "Account_Group_Class": "span.e-ddl.e-lib.valid.e-input-group.e-control-container.e-control-wrapper.style-size.e-valid-input",
+    "Account_Group_Input": "//input[@class='e-input-filter e-input e-lib e-keyboard']",
+    "Customer_Class": "span.e-ddl.e-lib.e-input-group.e-control-container.e-control-wrapper.e-multi-column.CommonCustomerDropdownCustomerId",
+    "Customer_Input": "//input[@class='e-input-filter e-input e-lib e-keyboard']",
+    "VendorDropdown": "span.e-ddl.e-lib.e-input-group.e-control-container.e-control-wrapper.style-size.e-valid-input.valid",
+    "selectVendor": "//li[normalize-space()='Vendor']",
+    "EnterVendor": "//input[@class='e-input-filter e-input e-lib e-keyboard']",
+    "Search": "#CashLedgerListSerchButton",
+    "Reset": "#CashLedgerListResetButton",
+    "View": "#CashLedgerListViewButton",
+    "View_Close": "#CashLedgerViewCloseButton",
+    "Edit": "#CashLedgerViewEditButton",
+    "totalreceivedamountTbox": "#CashLedgerEntryTotalReceivedAmount",
+    "add_button": "#CashLedgerGridAddButton",
+    "delete_button": "#CashLedgerGridDeleteButton",
+    "cancel_button": "#CashLedgerGridCancelButton",
+    "update_button": "#CashLedgerGridUpdateButton",
+    "clickreceivedamt": "td#CashLedgerReceivedAmountColumn",
+    "enterreceivedamt": "#RecAmt",
+    "netoutstandingamount": "td#CashLedgerNetOutstandingAmountColumn",
+    "updateok": "//button[normalize-space()='OK']",
+    "Partial_Payment_Pop_up": "div[class='modal show'] div[class='modal-content']",
+    "Partial_Payment_Yes": "#CashLedgerEntryPartPayemntYesButton",
+    "submitbtn": "#CashLedgerEntrySubmitButton",
+    "report": "#NavbarReportsMenu",
+    "customername": "span.e-ddl.e-lib.e-input-group.e-control-container.e-control-wrapper.e-multi-column.CommonCustomerDropdownCustomerId",
+    "entercustomername": "//input[@class='e-input-filter e-input e-lib e-keyboard']",
+    "companydropdown": "span.e-ddl.e-lib.e-input-group.e-control-container.e-control-wrapper.OutstandingReportCompanyNameForFilter.valid",
+    "companychange": "(//span[@class='e-ddl e-lib e-input-group e-control-container e-control-wrapper e-valid-input'])",
+    "selectSAC": "//li[normalize-space()='Shree Aqua Care']",
+    "selectCashonly": "//li[normalize-space()='Cash Only']",
+    "yesbtncompnaychange": "//button[@class='btn btn-primary']",
+    "outstandingreport": {
+        "outstanding": "#NavbarReportsMenuOutstaningReport",
+        "filterbutton": "#OutstandingReportOpenSidebarButton",
+        "SearchButton": "#OutstandingReportSearchButton"
+    },
+    "customeraccLedger": {
+        "accountLedger": "#NavbarReportsMenuAccountLedgerModule",
+        "customeraccount": "#NavbarReportsMenuAccountLedgerModuleCustomerAccountLedge",
+        "filterbutton": "#AccountLedgerReportOpenSidebarButton",
+        "Searchbutton": "#AccountLedgerReportSearchButton"
+    },
+    "vendoraccLedger": {
+        "accountLedger": "#NavbarReportsMenuAccountLedgerModule",
+        "vendoraccount": "#NavbarReportsMenuAccountLedgerModuleVendorAccountLedgerReport",
+        "filterbutton": "#VendorAccountLedgerReportOpenSidebarButton",
+        "vendorname": "span.e-ddl.e-lib.e-input-group.e-control-container.e-control-wrapper.e-multi-column.CommonVendorDropdownCustomerId",
+        "Searchbutton": "#VendorAccountLedgerReportSearchButton"
+    },
+    "payable": {
+        "payable": "#NavbarReportsMenuPayableReport",
+        "filterbutton": "#PayableReportOpenSidebarButton",
+        "vendorname": "span.e-ddl.e-lib.e-input-group.e-control-container.e-control-wrapper.e-multi-column.PayableReportVendorName.valid",
+        "Searchbutton": "#PayableReportSearchButton"
+    }
+}

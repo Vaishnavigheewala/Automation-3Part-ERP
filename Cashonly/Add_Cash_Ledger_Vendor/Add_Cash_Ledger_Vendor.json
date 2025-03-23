@@ -1,0 +1,64 @@
+{
+    "CashLedger": {
+        "Ledger": "#NavbarTransactionMenuLedgerModule",
+        "CashLedgerpage": "#NavbarTransactionMenuLedgerModuleCashLedgerPage",
+        "Datepicker": "span.e-date-wrapper.e-date-container.e-input-group.e-control-container.e-control-wrapper.e-valid-input.style-size.valid",
+        "AccountGroup": "span.e-ddl.e-lib.e-input-group.e-control-container.e-control-wrapper.style-size.e-valid-input.valid",
+        "selectVendor": "//li[normalize-space()='Vendor']",
+        "vendorname": "span.e-ddl.e-lib.e-input-group.e-control-container.e-control-wrapper.e-multi-column.CommonVendorDropdownCustomerId",
+        "Searchbutton": "#CashLedgerListSerchButton",
+        "entercustomername": "//input[@class='e-input-filter e-input e-lib e-keyboard']",
+        "ResetButton": "#CashLedgerListResetButton",
+        "AddnewButton": "#CashLedgerGridAddButton",
+        "DeleteButton": "#CashLedgerGridDeleteButton",
+        "CancleButton": "#CashLedgerGridCancelButton",
+        "Payment_Nature": "span.e-ddl.e-lib.e-input-group.e-control-container.e-control-wrapper.CashLedgerEntryPaymentNatureType.valid",
+        "Add_Billtype": "span.e-ddl.e-lib.valid.e-input-group.e-control-container.e-control-wrapper.CashLedgerInvoiceTypeId.e-keyboard",
+        "Add_Billnumber": "//td[@id='CashLedgerBillNoColumn']",
+        "Add_Billnumber1": "span.e-ddl.e-lib.e-error.modified.invalid.e-input-group.e-control-container.e-control-wrapper.CashLedgerBillNoColumn",
+        "Paid_Amt": "//td[@id='CashLedgerReceivedAmountColumn']",
+        "Paid_Amt1": "#RecAmt",
+        "AddnewButton_Home": "#CashLedgerListAddNewLedgerButton",
+        "Net_Outstanding_Amt" :"td#CashLedgerNetOutstandingAmountColumn",
+        "Submit": "#CashLedgerEntrySubmitButton",
+        "Update": "#CashLedgerGridUpdateButton",
+        "Update_OK": "//button[@class='e-control e-btn e-lib e-control e-btn e-lib e-flat e-primary']"
+    },
+    "outstandingreport": {
+        "outstanding": "#NavbarReportsMenuOutstaningReport",
+        "filterbutton": "#OutstandingReportOpenSidebarButton",
+        "SearchButton": "#OutstandingReportSearchButton",
+        "BillAmount": "#OutstandingReportBillAmountColumn",
+        "vendorname" : "span.e-ddl.e-lib.e-input-group.e-control-container.e-control-wrapper.e-multi-column.OutstandingReportVendorNameForFilter.valid",
+        "totalreceiveamt": "#OutstandingReportTotalReceivedAmountColumn",
+        "ExchangeAmt": "#OutstandingReportExchangeAmountColumn",
+        "balance": "#OutstandingReportRemainBalanceAmountColumn"
+    },
+    "customeraccLedger": {
+        "reports": "#NavbarReportsMenu",
+        "accountLedger": "#NavbarReportsMenuAccountLedgerModule",
+        "customeraccount": "#NavbarReportsMenuAccountLedgerModuleCustomerAccountLedge",
+        "filterbutton": "#AccountLedgerReportOpenSidebarButton",
+        "Searchbutton": "#AccountLedgerReportSearchButton",
+        "date": "td#AccountLedgerReportGridTransactionDateColumn",
+        "customername": "td#AccountLedgerReportGridCustomerNameColumn",
+        "table": "table#AccountLedgerReportGrid_header_table",
+        "balance": "#AccountLedgerReportGridcolGroup"
+    },
+    "vendoraccountLedger" : {
+        "reports": "#NavbarReportsMenu",
+        "accountLedger": "#NavbarReportsMenuAccountLedgerModule",
+        "vendorLedger" : "#NavbarReportsMenuAccountLedgerModuleVendorAccountLedgerReport",
+        "filterbutton": "#VendorAccountLedgerReportOpenSidebarButton",
+        "Searchbutton": "#VendorAccountLedgerReportSearchButton"
+    },
+    "LedgerReport": {
+        "ledgerpage": "#NavbarReportsMenuLedgerModule",
+        "cashledgerpage": "#NavbarReportsMenuLedgerModuleCashLedgerReport",
+        "filterbutton": "#CashLedgerReportOpenSidebarButton",
+        "vendorname" : "span.e-ddl.e-lib.e-input-group.e-control-container.e-control-wrapper.e-multi-column.CashLedgerReportVendorName.valid",
+        "paymentnature": "span.e-ddl.e-lib.e-input-group.e-control-container.e-control-wrapper.CashLedgerReportNatureType.valid",
+        "selectreceive": "//li[normalize-space()='Receive']",
+        "submitbutton": "#CashLedgerReportSearchButton"
+    }
+}

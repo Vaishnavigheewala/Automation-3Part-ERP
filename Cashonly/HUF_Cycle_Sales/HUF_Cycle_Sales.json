@@ -1,0 +1,67 @@
+{
+    "HUF_Cycle_Sales": {
+        "Sales_Menu": "#NavbarTransactionMenuSalesModule",
+        "HUF_Cycle_Sales_Menu": "#NavbarTransactionMenuSalesModuleHUFCycleSalesPage_CashToCustomerSales"
+    },
+    "HUF_Cycle_Sales_Page": {
+        "Date_Picker": "#HUFCycleSalesCashCompanyDateRangePickerForFilter",
+        "CustomerName_Dropdown": "span.e-ddl.e-lib.e-input-group.e-control-container.e-control-wrapper.e-multi-column.CommonCustomerDropdownCustomerId",
+        "Customer_Input": "//input[@class='e-input-filter e-input e-lib e-keyboard']",
+        "Search_Button": "#HUFCycleSalesCashCompanyListSearchButton",
+        "Reset_Button": "#HUFCycleSalesCashCompanyListResetButton",
+        "PDF_Export_Button": "#CommonPDFDownloadButton",
+        "Add_New_Button": "#HUFCycleSalesCashCompanyAddNewSalesButton",
+        "Regular_Column": "#HUFCycleSalesCashCompanyBillNoColumn",
+        "Bill_Type_Column": "#HUFCycleSalesCashCompanyBillNoColumn",
+        "Customer_Name_Column": "#HUFCycleSalesCashCompanyCustomerNameColumn",
+        "Broker_Name_Column": "#HUFCycleSalesCashCompanyBrokerNameColumn",
+        "Pay_Type_Column": "#HUFCycleSalesCashCompanyPayTypeColumn",
+        "Invoice_Type_Column": "#HUFCycleSalesCashCompanyInvoiceTypeColumn",
+        "Tax_Method_Column": "#HUFCycleSalesCashCompanyTaxMethodColumn",
+        "State_Column": "#HUFCycleSalesCashCompanyStateNameColumn",
+        "Total_QTY_Column": "#HUFCycleSalesCashCompanyTotalQtyColumn",
+        "Add_Less_AMT_Column": "#HUFCycleSalesCashCompanyAddLessAmountColumn",
+        "Round_Off_AMT_Column": "#HUFCycleSalesCashCompanyRoundOffAmountColumn",
+        "Net_AMT_Column": "#HUFCycleSalesCashCompanyNetAmountColumn",
+        "Action_Column": "#HUFCycleSalesCashCompanyActionColumn",
+        "View_Link": "#HUFCycleSalesCashCompanyViewButton",
+        "Edit_Button": "#HUFCycleSalesCashCompanyViewEditButton",
+        "Close_Button": "#HUFCycleSalesCashCompanyViewCloseButton",
+        "HUF_Cycle_Sales_Bill_Link": "#NavbarReportsMenuHUFCycleSalesBillLinkReport",
+        "Outstanding_Reports": "#NavbarReportsMenuOutstaningReport"
+    },
+    "reports_menu": {
+        "reports": "#NavbarReportsMenu",
+        "outstanding_menu": "#NavbarReportsMenuOutstaningReport",
+        "Inventory_Reports": "#NavbarReportsMenuInventoryReport"
+    },
+    "outstanding": {
+        "outstanding_back": "#OutstandingReportResetButton",
+        "outstanding_pdf": "#OutstandingReportPDFDownloadButton",
+        "outstanding_filter": "#OutstandingReportOpenSidebarButton",
+        "outstanding_search": "#OutstandingReportSearchButton",
+        "outstanding_reset": "#OutstandingReportSidebarResetButton",
+        "outstanding_close": "#OutstandingReportCloseSidebarButton",
+        "outstanding_date": "#OutstandingReportDateRangePickerForFilter"
+    },
+    "customer_ledger" : {
+        "customer_ledger_back" : "#AccountLedgerReportResetButton",
+        "customer_ledger_pdf" : "#AccountLedgerReportPDFDownloadButton",
+        "customer_ledger_filter" : "#AccountLedgerReportOpenSidebarButton",
+        "customer_ledger_search" : "#AccountLedgerReportSearchButton",
+        "customer_ledger_reset" : "#AccountLedgerReportSidebarResetButton",
+        "customer_ledger_close" : "#AccountLedgerReportColseSidebarButton",
+        "customer_ledger_date" : "#AccountLedgerReportDateRangePickerForFilter"
+    },
+    "Inventory": {
+        "Inventory_filter" : "#InventoryReportopenSideBarButton",
+        "Inventory_search" : "#InventoryReprtSearchButton",
+        "Inventory_item" : "span.e-ddl.e-lib.e-input-group.e-control-container.e-control-wrapper.CommonInvenotoryDropdownList",
+        "enteritemname": "//input[@class='e-input-filter e-input e-lib e-keyboard']"
+    },
+    "bill_no": "th#OutstandingReportBillNumberColumn",
+    "entercustomername": "//input[@class='e-input-filter e-input e-lib e-keyboard']",
+    "customerdropdown": "span.e-ddl.e-lib.e-input-group.e-control-container.e-control-wrapper.e-multi-column.CommonCustomerDropdownCustomerId",
+    "vendordropdown": "span.e-ddl.e-lib.e-input-group.e-control-container.e-control-wrapper.e-multi-column.OutstandingReportVendorNameForFilter.valid",
+    "companydropdown": "span.e-ddl.e-lib.e-input-group.e-control-container.e-control-wrapper.OutstandingReportCompanyNameForFilter.valid"
+}

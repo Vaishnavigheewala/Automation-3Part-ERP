@@ -1,0 +1,61 @@
+{
+    "HUFCompnay": {
+        "DeleteMenu": "#NavbarReportsMenuDeleteModule",
+        "HUfCycle": "#NavbarDeleteMenuHUFCycleSalesDeleteModule",
+        "HUFCycleSale": "#NavbarDeleteMenuHUFCycleSalesDeleteModuleHUFCycleSalesDelete",
+        "SalesNo": "#HUFCycleSalesDeleteInsertNo",
+        "radioButton": "#HUFCycleSalesDeleteHUFToCustomerSalesWithoutLedger",
+        "DeleteButton": "#HUFCycleSalesDeleteSubmit",
+        "TransactionMenu": "#NavbarTransactionMenu",
+        "Sales": "#NavbarTransactionMenuSalesModule",
+        "HUFCycleSalePage": "#NavbarTransactionMenuSalesModuleHUFCycleSalesPage_HUFToCustomerSales",
+        "TransactionNO": "#HUFCycleSalesHUFCompanyRegularBillNumberColumn"
+    },
+    "SAC": {
+        "HUFsale": "#NavbarTransactionMenuSalesModuleHUFCycleSalesPage_SACToHUFSales",
+        "BillNo": "#HUFCycleSalesRegularBillNumberColumn",
+        "RadioButton": "#HUFCycleSalesDeleteSACToHUFSalesWithoutLedger"
+    },
+    "SACBillLink": {
+        "ReportMenu": "#NavbarReportsMenu",
+        "billLink": "#NavbarReportsMenuHUFCycleSalesBillLinkReport"
+    },
+    "CashOnly": {
+        "HUF": "#NavbarTransactionMenuSalesModuleHUFCycleSalesPage_CashToCustomerSales",
+        "radioButton": "#HUFCycleSalesDeleteCashToCustomerSalesWithoutLedger",
+        "BillNo": "#HUFCycleSalesCashCompanyBillNoColumn"
+    },
+    "CashBillLink": {
+        "billno": "#HUFCycleSalesBillLinkReportCashSalesBillNumberColumn",
+        "GSTStatus": "#HUFCycleSalesBillLinkReportGSTSalesStatusColumn",
+        "CashStatus": "#HUFCycleSalesBillLinkReportCashPurchaseStatusColumn",
+        "CashSales": "#HUFCycleSalesBillLinkReportCashSalesStatusHUFColumn"
+    },
+    "OutStanding": {
+        "outstanding": "#NavbarReportsMenuOutstaningReport",
+        "customerdropdown": "span.e-ddl.e-lib.e-input-group.e-control-container.e-control-wrapper.e-multi-column.CommonCustomerDropdownCustomerId",
+        "entercustomername": "//input[@class='e-input-filter e-input e-lib e-keyboard']",
+        "selectcompnay": "span.e-ddl.e-lib.e-input-group.e-control-container.e-control-wrapper.OutstandingReportCompanyNameForFilter.valid",
+        "outstandingfilter": "#OutstandingReportOpenSidebarButton",
+        "outstandingserach": "#OutstandingReportSearchButton",
+        "billdate": "th#OutstandingReportBillDateColumn"
+    },
+    "SACCustomerAccountLedger": {
+        "Accountledger": "#NavbarReportsMenuAccountLedgerModule",
+        "CustomerAccountledger": "#NavbarReportsMenuAccountLedgerModuleCustomerAccountLedge",
+        "CustomerAccountfilterbutton": "#AccountLedgerReportOpenSidebarButton",
+        "CustomerAccountsearchbutton": "#AccountLedgerReportSearchButton"
+    },
+    "InventoryStock": {
+        "inventoryStock": "#NavbarReportsMenuInventoryReport",
+        "inventoryfilter": "#InventoryReportopenSideBarButton",
+        "selectinventorygroup": "span.e-ddl.e-lib.e-input-group.e-control-container.e-control-wrapper.InventoryReportInventoryGroup.valid",
+        "selectfinishmaterial": "//li[normalize-space()='FinishMaterial']",
+        "selectrawmaterial": "//li[normalize-space()='RawMaterial']",
+        "inventorysearchbutton": "#InventoryReprtSearchButton",
+        "inventoryselect": "span.e-ddl.e-lib.e-input-group.e-control-container.e-control-wrapper.CommonInvenotoryDropdownList"
+    },
+    "Company_Dropdown": "span.e-ddl.e-lib.e-input-group.e-control-container.e-control-wrapper.e-valid-input",
+    "Company_Dropdown_Two": "(//span[@class='e-ddl e-lib e-input-group e-control-container e-control-wrapper e-valid-input'])[1]",
+    "Change_Btn": "//button[@class='btn btn-primary']"
+}
