@@ -1,0 +1,41 @@
+{
+    "ShreeAquaCare": {
+        "sales_menu": "#NavbarTransactionMenuSalesModule",
+        "sales_gstsales": "#NavbarTransactionMenuSalesModuleSalesPage",
+        "save_btn": "#SalesAddNewSalesButton",
+        "brokerdropdown": "span.e-ddl.e-lib.e-input-group.e-control-container.e-control-wrapper.SalesEntryTechnicianName.valid",
+        "entercustomername": "//input[@class='e-input-filter e-input e-lib e-keyboard']"
+    },
+    "CashOnly": {
+        "sales_menu": "#NavbarTransactionMenuSalesModule",
+        "sales_gstsales": "#NavbarTransactionMenuSalesModuleSalesPage",
+        "save_btn": "#SalesAddNewSalesButton",
+        "brokerdropdown": "span.e-ddl.e-lib.e-input-group.e-control-container.e-control-wrapper.style-size.HUFCycleSalesCashCompanyEntryTechnician.valid",
+        "entercustomername": "//input[@class='e-input-filter e-input e-lib e-keyboard']",
+        "HUF_sales": "#NavbarTransactionMenuSalesModuleHUFCycleSalesPage_CashToCustomerSales",
+        "huf_add": "#HUFCycleSalesCashCompanyAddNewSalesButton"
+    },
+    "Kishorbhai": {
+        "sales_menu": "#NavbarTransactionMenuSalesModule",
+        "sales_gstsales": "#NavbarTransactionMenuSalesModuleDirectHUFSalesPage",
+        "save_btn": "#SalesAddNewSalesButton",
+        "brokerdropdown": "span.e-ddl.e-lib.e-input-group.e-control-container.e-control-wrapper.style-size.DirectHUFSalesEntryTechnician.valid",
+        "salse_dropdown": "span.e-ddl.e-lib.e-input-group.e-control-container.e-control-wrapper.SalesEntryTechnicianName.valid",
+        "entercustomername": "//input[@class='e-input-filter e-input e-lib e-keyboard']",
+        "huf_add": "#DirectHUFSalesAddNewSalesButton"
+    },
+    "Archie": {
+        "Service": "#NavbarTransactionMenuServiceModule",
+        "Ticket": "#NavbarTransactionMenuServiceModuleServiceTicketPage",
+        "Service_Add":"#ServiceTicketAddNewButton",
+        "Technician_Class":"span.e-ddl.e-lib.valid.e-input-group.e-control-container.e-control-wrapper.style-size.ServiceTicketEntryTechnician.e-keyboard"
+    },
+    "Technicianpage": "#NavbarMasterMenuTechnicianPage",
+    "technicianname": "#TechnicianEntryEnterName",
+    "technicianmobile": "#TechnicianEntryMobileNumber",
+    "technicianaddress": "#TechnicianEntryAddress",
+    "save_btn": "#TechnicianEntrySuccess",
+    "reset_btn": "#TechnicianEntryReset",
+    "pdf_export": "#CommonPDFDownloadButton",
+    "edit_link": "#TechnicianEntryTechnicaldetails"
+}

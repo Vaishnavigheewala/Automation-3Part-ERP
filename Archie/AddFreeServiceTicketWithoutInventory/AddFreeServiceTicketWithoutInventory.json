@@ -1,0 +1,53 @@
+{
+    "serviceticket": {
+        "service": "#NavbarTransactionMenuServiceModule",
+        "servicetickets": "#NavbarTransactionMenuServiceModuleServiceTicketPage",
+        "addnewbutton": "#ServiceTicketAddNewButton",
+        "resetbutton": "#ServiceTicketEntryResetButton",
+        "closebutton": "#ServiceTicketEntryCloseButton",
+        "submitbutton": "#ServiceTicketEntrySubmitButton",
+        "addaccountlink":"#ServiceTicketAddAccount",
+        "inventorysection":"#ServiceTicketEntryInventoryGrid",
+        "receiptsection":"#ServiceTicketEntryRecieptDetailGridAddButton",
+        "closepopup" : "#CommonModelDialogCloseButton",
+        "datepicker": "span.e-date-wrapper.e-date-container.e-input-group.e-control-container.e-control-wrapper.e-valid-input.style-size.valid",
+        "servicedate": "#CommonDatePicker", 
+        "ticketsno": "#ServiceTicketEntryTicketNo", 
+        "customerdropdwon": "span.e-ddl.e-lib.e-input-group.e-control-container.e-control-wrapper.e-multi-column.CommonCustomerDropdownCustomerId",
+        "entercustomername": "//input[@class='e-input-filter e-input e-lib e-keyboard']",
+        "amcdropdown": "span.e-ddl.e-lib.e-input-group.e-control-container.e-control-wrapper.style-size.ServiceTicketEntryAMCName.valid",
+        "customeraddress": "#ServiceTicketEntryCustomerAddress", 
+        "techniciandropdown": "span.e-ddl.e-lib.e-input-group.e-control-container.e-control-wrapper.style-size.ServiceTicketEntryTechnician.valid", 
+        "outsideproduct": "#ServiceTicketEntryIsOutsideProduct", 
+        "productdropdown": "span.e-ddl.e-lib.e-input-group.e-control-container.e-control-wrapper.CommonInvenotoryDropdownList",
+        "producttypedropdown": "span.e-ddl.e-lib.e-input-group.e-control-container.e-control-wrapper.ServiceTicketEntryProductName.valid",
+        "servicetypedropdown": "span.e-ddl.e-lib.e-input-group.e-control-container.e-control-wrapper.style-size.ServiceTicketEntryServiceType.valid",
+        "selectservicetypefree": "//li[normalize-space()='Free']",
+        "paymenttype": "span.e-ddl.e-ddl.e-lib.e-input-group.e-control-container.e-control-wrapper.ServiceTicketEntryPaymentType.e-disabled.valid", 
+        "completeddropdown": "span.e-ddl.e-lib.e-input-group.e-control-container.e-control-wrapper.style-size.ServiceTicketEntryStatus.e-disabled.e-valid-input.valid", 
+        "complainstatusdropdown": "span.e-ddl.e-lib.e-input-group.e-control-container.e-control-wrapper.ServiceTicketEntryComplainStatus.e-valid-input.valid",
+        "discountamount": "#ServiceTicketEntryDiscountAmount", 
+        "discount(%)": "#ServiceTicketEntryDiscountPercentage", 
+        "netAmount": "#ServiceTicketEntryNetAmount" ,
+        "customeringrid":"#ServiceTicketCustomerNameColumn",
+        "PayType":"#ServiceTicketEntryPaymentType",
+        "compltd": "#ServiceTicketEntryStatus"
+    
+    },
+    "ServiceReport":{
+        "reportmenu" : "#NavbarReportsMenu",
+        "servicemenu":"#NavbarReportsMenuServiceTicketModule",
+        "servicesubmenu":"#NavbarReportsMenuServiceTicketModuleServiceTicketReport",
+        "filterbutton":"#ServiceTicketReportOpenSidebarButton",
+        "Searchbutton":"#ServiceTicketReportSearchButton"
+       },
+       "SACcustomeraccLedger":{
+        "reports" : "#NavbarReportsMenu",
+        "accountLedger":"#NavbarReportsMenuAccountLedgerModule",
+        "customeraccount":"#NavbarReportsMenuAccountLedgerModuleCustomerAccountLedge",
+        "filterbutton":"#AccountLedgerReportOpenSidebarButton",
+        "Searchbutton":"#AccountLedgerReportSearchButton",
+        "BillNo":"#AccountLedgerReportGridTransactionNumberColumn"
+        
+       }
+}

@@ -1,0 +1,27 @@
+{
+   
+    "deleteamcinvoice": {
+      "delete_menu": "#NavbarReportsMenuDeleteModule",
+      "delete_amcinvoice": "#NavbarDeleteMenuAMCInvoiceDelete",
+      "amcinvoiceNoField": "#AMCInvoceDeleteInvoiceNumber",
+      "amcinvoiceRadioButton": "#AMCInvoiceWithoutLedgerPayment",
+      "amcinvoiceDeleteButton": "span.fa.fa-trash-o.e-btn-icon.e-icon-left",
+      "TransactionMenu":"#NavbarTransactionMenu",
+      "amcpage": "#NavbarTransactionMenuAMCInvoicePage"
+      
+    },
+    "Report":{
+        "reportmenu" : "#NavbarReportsMenu",
+        "servicemenu":"#NavbarReportsMenuServiceTicketModule",
+        "servicesubmenu":"#NavbarReportsMenuServiceTicketModuleServiceTicketReport",
+        "outstanding" : "#NavbarReportsMenuOutstaningReport",
+        "outstanding_filter" : "#OutstandingReportOpenSidebarButton",
+        "outstanding_search" : "#OutstandingReportSearchButton",
+        "AMCInvoiceReport":"#NavbarReportsMenuAMCInvoiceReport",
+        "amc_filter":"#CustomerAMCReportOpenSidebarButton",
+        "amc_search" : "#CustomerAMCReportSearchButton",
+         "customerdropdwon": "span.e-ddl.e-lib.e-input-group.e-control-container.e-control-wrapper.e-multi-column.CommonCustomerDropdownCustomerId",
+        "entercustomername": "//input[@class='e-input-filter e-input e-lib e-keyboard']"
+       
+       }
+}

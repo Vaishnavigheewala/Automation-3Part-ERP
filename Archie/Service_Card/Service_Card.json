@@ -1,0 +1,25 @@
+{
+    "Service_Card": {
+        "Service_Menu": "#NavbarTransactionMenuServiceModule",
+        "Service_Card_Menu": "#NavbarTransactionMenuServiceModuleServiceTicketCardPage",
+        "Date": "#ServiceTicketCarddatelab",
+        "Customer_Class": "span.e-ddl.e-lib.e-input-group.e-control-container.e-control-wrapper.e-multi-column.CommonCustomerDropdownCustomerId",
+        "Customer_Input": "//input[@class='e-input-filter e-input e-lib e-keyboard']",
+        "Search": "#ServiceTicketCardSearchButton",
+        "Reset": "#ServiceTicketCardResetButton",
+        "Generate_Service_Card_Btn": "#ServiceTicketCardGenerateButton",
+        "Pagination": "//div[@class='e-pagercontainer']"
+    },
+    "Service_Card_Grid": {
+        "SR_No": "#ServiceTicketCardSrNoColumn",
+        "Bill_Date": "#ServiceTicketCardFormattedBillDateColumn",
+        "Product_Name": "#ServiceTicketCardInventoryNameColumn",
+        "Customer_Name": "#ServiceTicketCardCustomerNameColumn",
+        "Address": "#ServiceTicketCardCustomerAddressColumn",
+        "Work_Detail": "#ServiceTicketCardWorkDetailColumn",
+        "Amt": "#ServiceTicketCardServiceAmountColumn",
+        "Service_Type": "#ServiceTicketCardServiceTypeColumn",
+        "Technican_Name": "#ServiceTicketCardTechnicianNameColumn",
+        "Mobile_No": "#ServiceTicketCardMobileNumberColumn"
+    }
+}

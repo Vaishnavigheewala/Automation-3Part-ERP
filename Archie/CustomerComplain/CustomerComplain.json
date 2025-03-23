@@ -1,0 +1,30 @@
+{
+    "service": "#NavbarTransactionMenuServiceModule",
+    "ComplainPage": "#NavbarTransactionMenuServiceModuleServiceTicketComplainEntryPage",
+    "date": "#ServiceTicketComplainEntryComplainDate",
+    "ComplainType": "span.e-ddl.e-lib.e-input-group.e-control-container.e-control-wrapper.ServiceTicketComplainEntryComplainType.valid",
+    "customerdropdown": "span.e-ddl.e-lib.e-input-group.e-control-container.e-control-wrapper.e-multi-column.CommonCustomerDropdownCustomerId",
+    "entercustomername": "//input[@class='e-input-filter e-input e-lib e-keyboard']",
+    "description":"#ServiceTicketComplainEntryDescription",
+    "submitbutton":"#ServiceTicketComplainEntrySubmit",
+    "resetbutton":"#ServiceTicketComplainEntryReset",
+    "refernceno":"#ServiceTicketComplainEntryReferenceNo",
+    "Technician":"span.e-ddl.e-lib.e-input-group.e-control-container.e-control-wrapper.ServiceTicketComplainEntryTechnician.valid",
+    "product":"span.e-ddl.e-lib.e-input-group.e-control-container.e-control-wrapper.ServiceTicketComplainEntryProduct.valid",
+    "pagecount":"//span[@class='e-pagecountmsg']",
+    "pageno":"//span[@class='e-pagenomsg']",
+    "closeComplain":"#ServiceTicketComplainEntryButton",
+    "grid":{
+        "customername":"#ServiceTicketComplainEntryCustomerNameColumn",
+        "technicianname":"#ServiceTicketComplainEntryTechnicianNameColumn",
+        "complaintype":"td#ServiceTicketComplainEntryComplainTypeColumn",
+        "ticketno":"#ServiceTicketComplainEntryTicketNoColumn",
+        "referenceno":"#ServiceTicketComplainEntryReferenceNoColumn",
+        "description":"#ServiceTicketComplainEntryComplainDescriptionColumn",
+        "complaindate":"#ServiceTicketComplainEntryFormattedComplainCreatedDateColumn",
+        "Action":"#ServiceTicketComplainEntryActionColumn",
+        "editlink":"#ServiceTicketComplainEntryEditButton",
+        "addserviceticketlink":"#ServiceTicketComplainEntryAddServiceTicketButton"
+      
+    }
+}

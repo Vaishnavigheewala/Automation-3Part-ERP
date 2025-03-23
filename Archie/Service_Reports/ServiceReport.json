@@ -1,0 +1,37 @@
+{
+    "Service":{
+        "servicemenu":"#NavbarReportsMenuServiceTicketModule",
+        "Servicereport":"#NavbarReportsMenuServiceTicketModuleServiceTicketReport",
+        "itemwisereport":"#NavbarReportsMenuServiceTicketModuleItemWiseServiceTicketReport",
+        "closedcomplianreport":"#NavbarReportsMenuServiceTicketModuleClosedComplainReport"
+    },
+    "Servicereport":{
+        "Backbutton":"#ServiceTicketReportBackButton",
+        "PDFbutton":"#CommonPDFDownloadButton",
+        "filterbutton":"#ServiceTicketReportOpenSidebarButton",
+        "TicketNo":"th#ServiceTicketReportTicketNoColumn",
+        "ServiceDate":"#ServiceTicketReportServiceDateColumn",
+        "customername":"th#ServiceTicketReportCustomerNameColumn",
+        "Servicetype":"#ServiceTicketReportServiceTypeColumn",
+        "PaymentType":"#ServiceTicketReportPayTypeColumn",
+        "TechnicianName":"#ServiceTicketReportTechnicianNameColumn",
+        "Completed":"#ServiceTicketReportCompletedColumn",
+        "Amount":"#ServiceTicketReportAmountColumn",
+        "Date":"#ServiceTicketReportDatePickerForFilter",
+        "customerdropdown": "span.e-ddl.e-lib.e-input-group.e-control-container.e-control-wrapper.e-multi-column.CommonCustomerDropdownCustomerId",
+        "entercustomername": "//input[@class='e-input-filter e-input e-lib e-keyboard']",
+        "TechnicianDropdown":"span.e-ddl.e-lib.e-input-group.e-control-container.e-control-wrapper.style-size.ServiceTicketReportTechnicianName.valid",
+        "PaymentTypeDropdown":"span.e-ddl.e-lib.e-input-group.e-control-container.e-control-wrapper.ServiceTicketReportPaymentType.valid",
+        "selectDue":"//li[normalize-space()='Due']",
+        "selectPaid":"//li[normalize-space()='Paid']",
+        "servicetypeDropdown":"span.e-ddl.e-lib.e-input-group.e-control-container.e-control-wrapper.style-size.ServiceTicketReportServiceType.valid",
+        "selectFree":"//li[normalize-space()='Free']",
+        "selectChargable":"//li[normalize-space()='Chargable']",
+        "CompletedDropdown":"span.e-ddl.e-lib.e-input-group.e-control-container.e-control-wrapper.style-size.ServiceTicketReportCompleted.valid",
+        "selectNo":"//li[normalize-space()='No']",
+        "selectYes":"//li[normalize-space()='Yes']",
+        "searchbutton":"#ServiceTicketReportSearchButton",
+        "resetbutton":"#ServiceTicketReportResetButton",
+        "closebutton":"#ServiceTicketReportCloseSidebarButton"
+    }
+}

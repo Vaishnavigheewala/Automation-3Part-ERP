@@ -1,0 +1,70 @@
+{
+    "reports_menu": {
+        "reports": "#NavbarReportsMenu",
+        "outstanding_menu": "#NavbarReportsMenuOutstaningReport",
+        "account_ledger": "#NavbarReportsMenuAccountLedgerModule",
+        "customer_ledger": "#NavbarReportsMenuAccountLedgerModuleCustomerAccountLedge",
+        "vendor_ledger": "#NavbarReportsMenuAccountLedgerModuleVendorAccountLedgerReport",
+        "payable_menu": "#NavbarReportsMenuPayableReport"
+    },
+    "Service_Menu": "#NavbarTransactionMenuServiceModule",
+    "Service_Ticket": "#NavbarTransactionMenuServiceModuleServiceTicketPage",
+    "View": "#ServiceTicketViewButton",
+    "Edit": "#ServiceTicketViewEditButton",
+    "Edit_Ok": "#ServiceTicketEntryLedgerAvailableOkButton",
+    "Close": "#ServiceTicketEntryCloseButton",
+    "Delete_Ledger": "#NavbarDeleteMenuLedgerDelete",
+    "Ledger_No": "#LedgerDeleteInsertNo",
+    "Ledger_Radio": "//label[@for='LedgerDeleteLedgerWithoutLedger']",
+    "Delete_Btn": "#LedgerDeleteSubmit",
+    "AMC": "#NavbarTransactionMenuGSTAMCInvoicePage",
+    "AMC_View": "#AmcWithGstInvoiceamcdetails",
+    "AMC_Close": "#AmcWithGstViewClose",
+    "Outstanding": "#NavbarReportsMenuOutstaningReport",
+    "outstanding": {
+        "outstanding_back": "#OutstandingReportResetButton",
+        "outstanding_pdf": "#OutstandingReportPDFDownloadButton",
+        "outstanding_filter": "#OutstandingReportOpenSidebarButton",
+        "outstanding_search": "#OutstandingReportSearchButton",
+        "outstanding_reset": "#OutstandingReportSidebarResetButton",
+        "outstanding_close": "#OutstandingReportCloseSidebarButton",
+        "outstanding_date": "#OutstandingReportDateRangePickerForFilter"
+    },
+    "bill_no1": "th#OutstandingReportBillNumberColumn",
+    "entercustomername": "//input[@class='e-input-filter e-input e-lib e-keyboard']",
+    "customerdropdown": "span.e-ddl.e-lib.e-input-group.e-control-container.e-control-wrapper.e-multi-column.CommonCustomerDropdownCustomerId",
+    "vendordropdown1": "span.e-ddl.e-lib.e-input-group.e-control-container.e-control-wrapper.e-multi-column.OutstandingReportVendorNameForFilter.valid",
+    "companydropdown": "span.e-ddl.e-lib.e-input-group.e-control-container.e-control-wrapper.OutstandingReportCompanyNameForFilter.valid",
+    "customer_ledger": {
+        "customer_ledger_back": "#AccountLedgerReportResetButton",
+        "customer_ledger_pdf": "#AccountLedgerReportPDFDownloadButton",
+        "customer_ledger_filter": "#AccountLedgerReportOpenSidebarButton",
+        "customer_ledger_search": "#AccountLedgerReportSearchButton",
+        "customer_ledger_reset": "#AccountLedgerReportSidebarResetButton",
+        "customer_ledger_close": "#AccountLedgerReportColseSidebarButton",
+        "customer_ledger_date": "#AccountLedgerReportDateRangePickerForFilter"
+    },
+    "bill": "#AccountLedgerReportGridTransactionNumberColumn",
+    "bill_no": "th#AccountLedgerReportGridTransactionNumberColumn",
+    "vendor_ledger": {
+        "vendor_ledger_back": "#VendorAccountLedgerReportResetButton",
+        "vendor_ledger_pdf": "#VendorAccountLedgerReportPDFDownloadButton",
+        "vendor_ledger_filter": "#VendorAccountLedgerReportOpenSidebarButton",
+        "vendor_ledger_search": "#VendorAccountLedgerReportSearchButton",
+        "vendor_ledger_reset": "#VendorAccountLedgerReportSidebarResetButton",
+        "vendor_ledger_close": "#VendorAccountLedgerReportColseSidebarButton",
+        "vendor_ledger_date": "#VendorAccountLedgerReportDatePickerForFilter"
+    },
+    "vendorbill": "th#VendorAccountLedgerReportGridVendorTransactionNoColumn",
+    "vendordropdown": "span.e-ddl.e-lib.e-input-group.e-control-container.e-control-wrapper.e-multi-column.CommonVendorDropdownCustomerId",
+    "payable" : {
+        "payable_back" : "#PayableReportBackButton",
+        "payable_pdf" : "#PayableReportPDFDownloadButton",
+        "payable_filter" : "#PayableReportOpenSidebarButton",
+        "payable_search" : "#PayableReportSearchButton",
+        "payable_reset" : "#PayableReportResetButton",
+        "payable_close" : "#PayableReportCloseSidebarButton",
+        "payable_date" : "#PayableReportDatePickerForFilter",
+        "vendordropdown" : "span.e-ddl.e-lib.e-input-group.e-control-container.e-control-wrapper.e-multi-column.PayableReportVendorName.valid"
+    }
+}

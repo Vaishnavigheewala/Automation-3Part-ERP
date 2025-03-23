@@ -1,0 +1,72 @@
+{
+    "Service_Ticket" : {
+        "Service_Ticket_Menu" : "#NavbarTransactionMenuServiceModule",
+        "Service_Ticket_Page" : "#NavbarTransactionMenuServiceModuleServiceTicketPage",
+        "Service_Ticket_View" : "#ServiceTicketViewButton",
+        "Service_Ticket_Edit" : "#ServiceTicketViewEditButton",
+        "Ledger_ok" : "#ServiceTicketEntryLedgerAvailableOkButton",
+        "Inventory_Name" : "//td[@id='ServiceTicketViewInventoryNameColumn']",
+        "Add_New_Service_Type" : "span.e-ddl.e-lib.valid.e-input-group.e-control-container.e-control-wrapper.style-size.ServiceTicketEntryServiceType.valid",
+        "Grid_Add_Btn" : "#ServiceTicketEntryInventoryDetailGridAddButton",
+        "Grid_Update_Btn" : "#ServiceTicketEntryInventoryDetailGridUpdateButton",
+        "Grid_Select_item" : "span.e-ddl.e-lib.e-input-group.e-control-container.e-control-wrapper.ServiceTicketEntryItemColumn.e-error.invalid",
+        "Grid_Qty" : "//td[@id='ServiceTicketEntryQtyColumn']",
+        "entercustomername": "//input[@class='e-input-filter e-input e-lib e-keyboard']",
+        "Add_New_Submit": "#ServiceTicketEntrySubmitButton",
+        "Grid" : "#ServiceTicketEntryInventoryGrid_content_table",
+        "Update_Ok" : "button[class='e-control e-btn e-lib e-control e-btn e-lib e-flat e-primary']",
+        "Make_Payment" : "#ServiceTicketEntryPaymentConfirmationPopupDeclineButton",
+        "Total_AMT" : "#CashLedgerEntryTotalReceivedAmount",
+        "Receive_Amt" : "#RecAmt",
+        "Receive_Amt_td" : "#CashLedgerReceivedAmountColumn",
+        "Payment_Submit" : "#CashLedgerEntrySubmitButton",
+        "Payment_Update" : "#CashLedgerGridUpdateButton",
+        "Part_Payment_Ok" : "#CashLedgerEntryPartPayemntYesButton",
+        "Payment_Update_Ok" : "button[class='e-control e-btn e-lib e-control e-btn e-lib e-flat e-primary']"
+    },
+    "Service_Ticket_Reports" : {
+        "Reports_Menu" : "#NavbarReportsMenu",
+        "Service_Menu" : "#NavbarReportsMenuServiceTicketModule",
+        "Service_Report" : "#NavbarReportsMenuServiceTicketModuleServiceTicketReport",
+        "Item_Wise_Reports" : "#NavbarReportsMenuServiceTicketModuleItemWiseServiceTicketReport",
+        "Outstanding" : "#NavbarReportsMenuOutstaningReport",
+        "Inventory_Reports" : "#NavbarReportsMenuInventoryReport"
+    },
+    "Service_Report" : {
+        "filter_Btn" : "#ServiceTicketReportOpenSidebarButton",
+        "Customer_Dropdown" : "span.e-ddl.e-lib.e-input-group.e-control-container.e-control-wrapper.e-multi-column.CommonCustomerDropdownCustomerId",
+        "entercustomername": "//input[@class='e-input-filter e-input e-lib e-keyboard']",
+        "Search_Btn" : "#ServiceTicketReportSearchButton"
+    },
+    "Item_Wise" : {
+        "filter_Btn" : "#ItemWiseServiceTicketReporOpenSidebarButton",
+        "Customer_Dropdown" : "span.e-ddl.e-lib.e-input-group.e-control-container.e-control-wrapper.e-multi-column.CommonCustomerDropdownCustomerId",
+        "entercustomername": "//input[@class='e-input-filter e-input e-lib e-keyboard']",
+        "Search_Btn" : "#ItemWiseServiceTicketReportSearchButton"
+    },
+    "Outstanding" : {
+        "filter_Btn" : "#OutstandingReportOpenSidebarButton",
+        "Customer_Dropdown" : "span.e-ddl.e-lib.e-input-group.e-control-container.e-control-wrapper.e-multi-column.CommonCustomerDropdownCustomerId",
+        "entercustomername": "//input[@class='e-input-filter e-input e-lib e-keyboard']",
+        "Search_Btn" : "#OutstandingReportSearchButton"
+    },
+    "Inventory_Reports" : {
+        "filter_Btn" : "#InventoryReportopenSideBarButton",
+        "Customer_Dropdown" : "span.e-ddl.e-lib.e-input-group.e-control-container.e-control-wrapper.CommonInvenotoryDropdownList",
+        "entercustomername": "//input[@class='e-input-filter e-input e-lib e-keyboard']",
+        "Search_Btn" : "#InventoryReprtSearchButton"
+    },
+    "CustomeraccLedger": {
+        "reports": "#NavbarReportsMenu",
+        "Customer_Dropdown" : "span.e-ddl.e-lib.e-input-group.e-control-container.e-control-wrapper.e-multi-column.CommonCustomerDropdownCustomerId",
+        "accountLedger": "#NavbarReportsMenuAccountLedgerModule",
+        "customeraccount": "#NavbarReportsMenuAccountLedgerModuleCustomerAccountLedge",
+        "entercustomername": "//input[@class='e-input-filter e-input e-lib e-keyboard']",
+        "filterbutton": "#AccountLedgerReportOpenSidebarButton",
+        "Searchbutton": "#AccountLedgerReportSearchButton",
+        "date": "td#AccountLedgerReportGridTransactionDateColumn",
+        "customername": "td#AccountLedgerReportGridCustomerNameColumn",
+        "table": "table#AccountLedgerReportGrid_header_table",
+        "balance": "#AccountLedgerReportGridcolGroup"
+    }
+}

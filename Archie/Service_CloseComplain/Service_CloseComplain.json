@@ -1,0 +1,11 @@
+{
+    "servicemenu":"#NavbarReportsMenuServiceTicketModule",
+      "closedcomplianreport":"#NavbarReportsMenuServiceTicketModuleClosedComplainReport",
+      "customername":"#ClosedComplainCustomerNameColumn",
+      "Technicianname":"#ClosedComplainTechnicianNameColumn",
+      "complaintype":"#ClosedComplainComplainTypeColumn",
+      "TicketNo":"th#ClosedComplainTicketNoColumn",
+      "ReferenceNo":"#ClosedComplainReferenceNoColumn",
+      "Complaindescription":"#ClosedComplainComplainDescriptionColumn",
+      "createddate":"#ClosedComplainComplainCreatedDateColumn"
+}

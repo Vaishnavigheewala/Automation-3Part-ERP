@@ -1,0 +1,40 @@
+{
+    "Reports": {
+        "Reports_Menu": "#NavbarReportsMenu",
+        "Account_Ledger_Menu": "#NavbarReportsMenuAccountLedgerModule",
+        "Customer_Account_Ledger_Menu": "#NavbarReportsMenuAccountLedgerModuleCustomerAccountLedge"
+    },
+    "Customer_Account_Ledger": {
+        "Account_Ledger_Menu": "#NavbarReportsMenuAccountLedgerModule",
+        "Customer_Account_Menu": "#NavbarReportsMenuAccountLedgerModuleCustomerAccountLedge",
+        "Filter_Button": "#AccountLedgerReportOpenSidebarButton",
+        "Date_Filter": "#AccountLedgerReportDateRangePickerForFilter",
+        "Customer_Class": "span.e-ddl.e-lib.e-input-group.e-control-container.e-control-wrapper.e-multi-column.CommonCustomerDropdownCustomerId.e-keyboard",
+        "Search": "#AccountLedgerReportSearchButton",
+        "Input_Class": "//input[@class='e-input-filter e-input e-lib e-keyboard']",
+        "Reset": "#AccountLedgerReportSidebarResetButton",
+        "Close": "#AccountLedgerReportColseSidebarButton",
+        "Date": "td#AccountLedgerReportGridTransactionDateColumn",
+        "Back_Btn": "#AccountLedgerReportResetButton",
+        "PDF_Export": "#AccountLedgerReportPDFDownloadButton",
+        "UnGroup": "//span[@title='Ungroup by this column']",
+        "Bill_Link": "#AccountLedgerReportGridTransactionNumberColumn"
+    },
+    "Grid": {
+        "Table": "table#AccountLedgerReportGrid_header_table",
+        "Grid_Table": "#AccountLedgerReportGrid",
+        "Customer_Name": "td#AccountLedgerReportGridCustomerNameColumn",
+        "Balance": "//th[@id='AccountLedgerReportGridBalanceColumn']",
+        "Bill_No": "//th[@id='AccountLedgerReportGridTransactionNumberColumn']",
+        "Grid_Date": "//th[@id='AccountLedgerReportGridTransactionDateColumn']",
+        "Company_Name": "//th[@id='AccountLedgerReportGridCompanyNameColumn']",
+        "Address": "//th[@id='AccountLedgerReportGridAddressColumn']",
+        "Mobile": "//th[@id='AccountLedgerReportGridMobileColumn']",
+        "Transaction_No": "//th[@id='AccountLedgerReportGridTransactionNumberColumn']",
+        "Voucher_No": "//th[@id='AccountLedgerReportGridVoucherNumberColumn']",
+        "Description": "//th[@id='AccountLedgerReportGridDescriptionColumn']",
+        "Debit": "//th[@id='AccountLedgerReportGridDebitColumn']",
+        "Credit": "//th[@id='AccountLedgerReportGridCreditColumn']",
+        "Exchange_Amt": "//th[@id='AccountLedgerReportGridExchangeAmountColumn']"
+    }
+}

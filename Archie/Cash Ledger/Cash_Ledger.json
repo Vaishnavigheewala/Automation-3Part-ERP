@@ -1,0 +1,83 @@
+{
+    "CashLedger": {
+        "Ledger": "#NavbarTransactionMenuLedgerModule",
+        "CashLedgerpage": "#NavbarTransactionMenuLedgerModuleCashLedgerPage",
+        "Datepicker": "span.e-control-wrapper.e-date-range-wrapper.e-control-container.e-date-range-container.e-valid-input.e-input-group.style-size.e-right.CashLedgerListDatePickerForFilter",
+        "AccountGroup": "span.e-ddl.e-lib.e-input-group.e-control-container.e-control-wrapper.style-size.e-valid-input.valid",
+        "selectCustomer": "//li[normalize-space()='Customer']",
+        "selectVendor": "//li[normalize-space()='Vendor']",
+        "customername": "span.e-ddl.e-lib.e-input-group.e-control-container.e-control-wrapper.e-multi-column.CommonCustomerDropdownCustomerId",
+        "entercustomername": "//input[@class='e-input-filter e-input e-lib e-keyboard']",
+        "vendorname": "span.e-ddl.e-lib.e-input-group.e-control-container.e-control-wrapper.e-multi-column.CommonVendorDropdownCustomerId",
+        "Searchbutton": "#CashLedgerListSerchButton",
+        "ResetButton": "#CashLedgerListResetButton",
+        "pdfbutton": "#CommonPDFDownloadButton",
+        "AddnewButton": "#CashLedgerListAddNewLedgerButton"
+    },
+    "Grid": {
+        "VoucherNo": "#CashLedgerListVoucherNoColumn",
+        "BillNo": "#CashLedgerListBillNoColumn",
+        "VoucherDate": "#CashLedgerListVoucherDateColumn",
+        "Accountname": "#CashLedgerListAccountNameColumn",
+        "NatureType": "#CashLedgerListNatureTypeColumn",
+        "NetAmount": "#CashLedgerListNetAmountColumn",
+        "Action": "#CashLedgerListActionColumn",
+        "Viewlink": "#CashLedgerListViewButton",
+        "Closebuttonentry": "#CashLedgerEntryCloseButton",
+        "viewclosebutton": "#CashLedgerViewCloseButton"
+    },
+    "Addcashledger": {
+        "VoucherNoField": "#CashLedgerEntryVouchernumber",
+        "datepickr": "#CommonDatePicker",
+        "paymentnature": "span.e-ddl.e-lib.e-input-group.e-control-container.e-control-wrapper.CashLedgerEntryPaymentNatureType.valid",
+        "GridAddButton": "#CashLedgerGridAddButton",
+        "GridCancelButton" : "#CashLedgerGridCancelButton",
+        "GridDeleteBUtton" : "#CashLedgerGridDeleteButton",
+        "billtype": "span.e-ddl.e-lib.e-input-group.e-control-container.e-control-wrapper.CashLedgerInvoiceTypeId.valid",
+        "Gridbilltype" : "td#CashLedgerBillTypeColumn",
+        "selectsales": "//li[normalize-space()='Ticket']",
+        "selectGSTAMC": "//li[normalize-space()='Amc']",
+        "billno": "td#CashLedgerBillNoColumn",
+        "enterReceiveamt": "input#RecAmt",
+        "Receivedamt": "td#CashLedgerReceivedAmountColumn",
+        "updatebutton": "#CashLedgerGridUpdateButton",
+        "updateok": "//button[normalize-space()='OK']",
+        "netamount": "//input[@id='CashLedgerEntryNetAmount']",
+        "balance": "td#CashLedgerRemainingBalanceColumn",
+        "exchangeamount": "#CashLedgerExchangeAmountColumn",
+        "submitbutton": "#CashLedgerEntrySubmitButton",
+        "billnumber": "span.e-ddl.e-lib.e-input-group.e-control-container.e-control-wrapper.CashLedgerBillNoColumn.valid",
+        "netoutstandingamount": "td#CashLedgerNetOutstandingAmountColumn",
+        "total_receive" : "#CashLedgerEntryTotalReceivedAmount",
+        "Reset_btn" : "#CashLedgerEntryResetButton",
+        "close_btn" : "#CashLedgerEntryCloseButton"
+    },
+    "outstandingreport": {
+        "outstanding": "#NavbarReportsMenuOutstaningReport",
+        "filterbutton": "#OutstandingReportOpenSidebarButton",
+        "SearchButton": "#OutstandingReportSearchButton",
+        "BillAmount": "#OutstandingReportBillAmountColumn",
+        "totalreceiveamt": "#OutstandingReportTotalReceivedAmountColumn",
+        "ExchangeAmt": "#OutstandingReportExchangeAmountColumn",
+        "balance": "#OutstandingReportRemainBalanceAmountColumn"
+    },
+    "customeraccLedger": {
+        "reports": "#NavbarReportsMenu",
+        "accountLedger": "#NavbarReportsMenuAccountLedgerModule",
+        "customeraccount": "#NavbarReportsMenuAccountLedgerModuleCustomerAccountLedge",
+        "filterbutton": "#AccountLedgerReportOpenSidebarButton",
+        "Searchbutton": "#AccountLedgerReportSearchButton",
+        "date": "td#AccountLedgerReportGridTransactionDateColumn",
+        "customername": "td#AccountLedgerReportGridCustomerNameColumn",
+        "table": "table#AccountLedgerReportGrid_header_table",
+        "balance": "#AccountLedgerReportGridcolGroup"
+    },
+    "LedgerReport": {
+        "ledgerpage": "#NavbarReportsMenuLedgerModule",
+        "cashledgerpage": "#NavbarReportsMenuLedgerModuleCashLedgerReport",
+        "filterbutton": "#CashLedgerReportOpenSidebarButton",
+        "paymentnature": "span.e-ddl.e-lib.e-input-group.e-control-container.e-control-wrapper.CashLedgerReportNatureType.valid",
+        "selectreceive": "//li[normalize-space()='Receive']",
+        "submitbutton": "#CashLedgerReportSearchButton"
+    }
+}

@@ -1,0 +1,74 @@
+{
+    "BankLedger": {
+        "Ledger": "#NavbarTransactionMenuLedgerModule",
+        "BankLedgerpage": "#NavbarTransactionMenuLedgerModuleBankLedgerPage",
+        "AddnewButton": "#BankLedgersAddlabel",
+        "VoucherNoField": "#BankLedgerEntryVoucher",
+        "datepickr": "#CommonDatePicker",
+        "NetAmount": "#BankLedgerEntryamcNetAmountReference1",
+        "ResetButton": "#BankLedgerEntryResetButton",
+        "CloseButton": "#BankLedgerEntryCloseButton",
+        "SubmitButton": "#BankLedgerEntrySubmitButton",
+        "paymentdrop" : "#BankLedgerEntryDropdown3",
+        "Payment_Nature_Class": "//span[@class='e-ddl e-lib valid e-input-group e-control-container e-control-wrapper e-keyboard']",
+        "paymentNatureDropdown": "span.e-ddl.e-lib.e-input-group.e-control-container.e-control-wrapper.BankLedgerEntryDropdown3.valid",
+        "paymentMethodDropdown": "span.e-ddl.e-lib.e-input-group.e-control-container.e-control-wrapper.BankLedgerEntryDropdown.valid",
+        "bankChargesTextbox": "#BankLedgerEntryBankChargeAmt",
+        "vendorname": "span.e-ddl.e-lib.e-input-group.e-control-container.e-control-wrapper.e-multi-column.CommonVendorDropdownCustomerId",
+        "customerdropdown": "span.e-ddl.e-lib.e-input-group.e-control-container.e-control-wrapper.e-multi-column.CommonCustomerDropdownCustomerId",
+        "entercustomername": "//input[@class='e-input-filter e-input e-lib e-keyboard']",
+        "TransactionIDTextbox": "#BankLedgerEntryTransactionNumber",
+        "bankname": "span.e-ddl.e-lib.e-input-group.e-control-container.e-control-wrapper.BankLedgerEntryDropdown2.valid",
+        "bankactno": "#BankLedgerEntryBankAccNo",
+        "total_receive" : "#BankLedgerEntryTotalReceivedAmount",
+        "chequeno": "#BankLedgerEntryChequeNo",
+        "Gridbilltype" : "#BankLedgerEntryBillTypeColumn",
+        "addgridbtn": "#BankLedgerEntryGridAddButton",
+        "deletegridbtn": "#BankLedgerEntryDeleteButton",
+        "cancelgridbtn": "#BankLedgerEntryCancelButton",
+        "updategridbtn": "#BankLedgerEntryUpdateButton",
+        "billtype": "span.e-ddl.e-lib.e-input-group.e-control-container.e-control-wrapper.BankLedgerEntryStInvoiceTypeId.valid",
+        "selectsales": "//li[normalize-space()='Ticket']",
+        "selectGSTAMC": "//li[normalize-space()='Amc']",
+        "selectpurchase": "//li[normalize-space()='Purchase']",
+        "billnumber": "span.e-ddl.e-lib.e-error.modified.invalid.e-input-group.e-control-container.e-control-wrapper.BankLedgerEntryStInvoiceId",
+        "billno": "td#BankLedgerEntryisAllowAddingEditInGridColumn",
+        "netoutstandingamount": "td#BankLedgerEntryNetOutstandingAmtColumn",
+        "enterReceiveamt": "#RecAmt",
+        "Receivedamt": "td#BankLedgerEntryRecAmtColumn",
+        "updateok": "//button[normalize-space()='OK']",
+        "Submitbtn" : "#BankLedgerEntrySubmitButton"
+    },
+    "Grid" :{
+        "Accountname" : "#BankLedgersCustomerNameColumn"
+    },
+    "outstandingreport": {
+        "outstanding": "#NavbarReportsMenuOutstaningReport",
+        "filterbutton": "#OutstandingReportOpenSidebarButton",
+        "SearchButton": "#OutstandingReportSearchButton"
+    },
+    "customeraccLedger": {
+        "reports": "#NavbarReportsMenu",
+        "accountLedger": "#NavbarReportsMenuAccountLedgerModule",
+        "customeraccount": "#NavbarReportsMenuAccountLedgerModuleCustomerAccountLedge",
+        "filterbutton": "#AccountLedgerReportOpenSidebarButton",
+        "Searchbutton": "#AccountLedgerReportSearchButton"
+    },
+    "vendoraccountLedger" : {
+        "reports": "#NavbarReportsMenu",
+        "accountLedger": "#NavbarReportsMenuAccountLedgerModule",
+        "vendorLedger" : "#NavbarReportsMenuAccountLedgerModuleVendorAccountLedgerReport",
+        "filterbutton": "#VendorAccountLedgerReportOpenSidebarButton",
+        "Searchbutton": "#VendorAccountLedgerReportSearchButton"
+    },
+    "LedgerReport": {
+        "ledgerpage": "#NavbarReportsMenuLedgerModule",
+        "bankledgerpage": "#NavbarReportsMenuLedgerModuleBankLedgerReport",
+        "filterbutton": "#BankLedgerReportOpenSidebarButton",
+        "paymentnature": "span.e-ddl.e-lib.e-input-group.e-control-container.e-control-wrapper.BankLedgerReportNatureType.e-valid-input.valid",
+        "selectreceive": "//li[normalize-space()='Receive']",
+        "submitbutton": "#BankLedgerReportSearchButton"
+    },
+    "vendor_ledger" : "span.e-ddl.e-lib.e-input-group.e-control-container.e-control-wrapper.e-multi-column.BankLedgerReportVendorName.valid",
+    "vendor_outstanding" : "span.e-ddl.e-lib.e-input-group.e-control-container.e-control-wrapper.e-multi-column.OutstandingReportVendorNameForFilter.valid"
+}

@@ -1,0 +1,45 @@
+{
+    "Ledger_Reports" : {
+        "Ledger_Reports_Menu" : "#NavbarReportsMenuLedgerModule",
+        "Bank_Ledger_Page" : "#NavbarReportsMenuLedgerModuleBankLedgerReport",
+        "Cash_Ledger_Page" : "#NavbarReportsMenuLedgerModuleCashLedgerReport"
+    },
+    "Bank_Ledger" : {
+        "Filter_btn" : "#BankLedgerReportOpenSidebarButton",
+        "Pdf_Export" : "#CommonPDFDownloadButton",
+        "Back_btn" : "#BankLedgerReportBackButton",
+        "Customer_Dropdown" : "span.e-ddl.e-lib.e-input-group.e-control-container.e-control-wrapper.e-multi-column.CommonCustomerDropdownCustomerId",
+        "entercustomername": "//input[@class='e-input-filter e-input e-lib e-keyboard']",
+        "Search_Btn" : "#BankLedgerReportSearchButton",
+        "Reset_Btn" : "#BankLedgerReportResetButton",
+        "close_Btn" : "#BankLedgerReportCloseSidebarButton",
+        "VoucherNo" : "#BankLedgerReprortVoucherNoColumn",
+        "VoucherDate" : "#BankLedgerReprortVoucherDateColumn",
+        "AccountName" : "#BankLedgerReprortAccountNameColumn",
+        "PaymentType" : "#BankLedgerReprortPayTypeColumn",
+        "BankName" : "#BankLedgerReprortBankNameColumn",
+        "BankAccNo" : "#BankLedgerReprortBankAccountNumberColumn",
+        "ChequeNo" : "#BankLedgerReprortChequeNumberColumn",
+        "BankCharge" : "#BankLedgerReprortBankChargeAmountColumn",
+        "TransactionNo" : "#BankLedgerReprortTransactionNumberColumn",
+        "ExchangeAmt" : "#BankLedgerReprortTotalExchangeAmountColumn",
+        "Blance" : "#BankLedgerReprortBalanceColumn",
+        "NatureType" : "#BankLedgerReprortNatureTypeColumn"
+    },
+    "Cash_Ledger" : {
+        "Filter_btn" : "#CashLedgerReportOpenSidebarButton",
+        "Pdf_Export" : "#CommonPDFDownloadButton",
+        "Back_btn" : "#CashLedgerReportBackButton",
+        "Customer_Dropdown" : "span.e-ddl.e-lib.e-input-group.e-control-container.e-control-wrapper.e-multi-column.CommonCustomerDropdownCustomerId",
+        "entercustomername": "//input[@class='e-input-filter e-input e-lib e-keyboard']",
+        "Search_Btn" : "#CashLedgerReportSearchButton",
+        "Reset_Btn" : "#CashLedgerReportResetButton",
+        "close_Btn" : "#CashLedgerReportCloseSidebarButton",
+        "VoucherNo" : "#CashLedgerReprortVoucherNoColumn",
+        "VoucherDate" : "#CashLedgerReprortVoucherDateColumn",
+        "AccountName" : "#CashLedgerReprortAccountNameColumn",
+        "ExchangeAmt" : "#CashLedgerReprortTotalExchangeAmountColumn",
+        "NatureType" : "#CashLedgerReprortNatureTypeColumn",
+        "NetAmt" : "#CashLedgerReprortNetAmountColumn"
+    }
+}

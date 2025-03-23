@@ -1,0 +1,33 @@
+{
+    "servicemenu":"#NavbarReportsMenuServiceTicketModule",
+    "itemwisepage":"#NavbarReportsMenuServiceTicketModuleItemWiseServiceTicketReport",
+    "backbutton":"#ItemWiseServiceTicketReportBackButton",
+    "pdfbutton":"#CommonPDFDownloadButton",
+    "filterbutton":"#ItemWiseServiceTicketReporOpenSidebarButton",
+    "TicketNo":"th#ItemWiseServiceTicketReportTicketNoColumn",
+    "servicedate":"#ItemWiseServiceTicketReportServiceDateColumn",
+    "customer":"#ItemWiseServiceTicketReportCustomerNameColumn",
+    "item":"th#ItemWiseServiceTicketReportItemColumn",
+    "totalqty":"#ItemWiseServiceTicketReportTotalQuantityColumn",
+    "servicetype":"#ItemWiseServiceTicketReportServiceTypeColumn",
+    "paymenttype":"#ItemWiseServiceTicketReportPaymentTypeColumn",
+    "technicianname":"#ItemWiseServiceTicketReportTechnicianNameColumn",
+    "completed":"#ItemWiseServiceTicketReportStatusNameColumn",
+    "Amount":"#ItemWiseServiceTicketReportTotalAmountColumn",
+    "date":"#ItemWiseServiceTicketReportDatePickerForFilter",
+    "customerdropdown": "span.e-ddl.e-lib.e-input-group.e-control-container.e-control-wrapper.e-multi-column.CommonCustomerDropdownCustomerId",
+    "entercustomername": "//input[@class='e-input-filter e-input e-lib e-keyboard']",
+    "TechnicianDropdown":"span.e-ddl.e-lib.e-input-group.e-control-container.e-control-wrapper.style-size.ItemWiseServiceTicketReportTechnicanName.valid",
+        "itemDropdown":"span.e-ddl.e-lib.e-input-group.e-control-container.e-control-wrapper.CommonInvenotoryDropdownList",
+        "servicetypeDropdown":"span.e-ddl.e-lib.e-input-group.e-control-container.e-control-wrapper.style-size.ItemWiseServiceTicketReportServiceType.valid",
+        "selectFree":"//li[normalize-space()='Free']",
+        "selectChargable":"//li[normalize-space()='Chargable']",
+        "CompletedDropdown":"span.e-ddl.e-lib.e-input-group.e-control-container.e-control-wrapper.style-size.ItemWiseServiceTicketReportStatus.valid",
+        "selectNo":"//li[normalize-space()='No']",
+        "selectYes":"//li[normalize-space()='Yes']",
+        "searchbutton":"#ItemWiseServiceTicketReportSearchButton",
+        "resetbutton":"#ItemWiseServiceTicketReportResetButton",
+        "closebutton":"#ItemWiseServiceTicketReportCloseSidebarButton"
+       
+   
+}

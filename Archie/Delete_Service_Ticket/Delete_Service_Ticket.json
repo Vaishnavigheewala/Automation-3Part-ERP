@@ -1,0 +1,65 @@
+{
+    "service": "#NavbarTransactionMenuServiceModule",
+    "servicetickets": "#NavbarTransactionMenuServiceModuleServiceTicketPage",
+    "deletemenu":"#NavbarReportsMenuDeleteModule",
+    "ServiceTicketdelete":"#NavbarDeleteMenuServiceTicketDelete",
+    "ticketno":"#deleteServiceTicketNo",
+    "FreeNo":"//span[normalize-space()='Free Service Ticket + No Inventory']",
+    "FreeGeneral":"//span[normalize-space()='Free Service Ticket + Only General Inventory']",
+    "FreeRaw":"//span[normalize-space()='Free Service Ticket + Only Raw Material Inventory']",
+    "FreeBoth":"//span[contains(text(),'Free Service Ticket + General And Raw Material Inv')]",
+    "ChargableGeneral":"//span[normalize-space()='Chargeble Service Ticket + Only General Inventory']",
+    "ChargableRaw":"//span[contains(text(),'Chargeble Service Ticket + Only Raw Material Inven')]",
+    "ChargableBoth":"//span[contains(text(),'Chargeble Service Ticket + General And Raw Materia')]",
+    "deletebutton":"#deleteServiceTicketDelete",
+
+    
+    "Service":{
+        "report":"#NavbarReportsMenu",
+        "servicemenu":"#NavbarReportsMenuServiceTicketModule",
+        "Servicereport":"#NavbarReportsMenuServiceTicketModuleServiceTicketReport",
+        "itemwisereport":"#NavbarReportsMenuServiceTicketModuleItemWiseServiceTicketReport",
+        "closedcomplianreport":"#NavbarReportsMenuServiceTicketModuleClosedComplainReport"
+    },
+    "serviceReport":{
+        "filterbutton":"#ServiceTicketReportOpenSidebarButton",
+        "TicketNo":"th#ServiceTicketReportTicketNoColumn",
+        "customerdropdown": "span.e-ddl.e-lib.e-input-group.e-control-container.e-control-wrapper.e-multi-column.CommonCustomerDropdownCustomerId",
+        "entercustomername": "//input[@class='e-input-filter e-input e-lib e-keyboard']",
+        "searchbutton":"#ServiceTicketReportSearchButton"
+
+    },
+    "itemwise":{
+        "filterbutton":"#ItemWiseServiceTicketReporOpenSidebarButton",
+    "TicketNo":"th#ItemWiseServiceTicketReportTicketNoColumn",
+    "searchbutton":"#ItemWiseServiceTicketReportSearchButton",
+    "grid":"#ItemWiseServiceTicketReport"
+    },
+    "outstanding":{
+        "outstandingpage":"#NavbarReportsMenuOutstaningReport",
+        "filterbutton":"#OutstandingReportOpenSidebarButton",
+        "serachbutton":"#OutstandingReportSearchButton",
+        "grid":"#OutstandingReportGrid"
+    },
+    "inventorystock":{
+        "Inventory_menu": "#NavbarReportsMenuInventoryReport",
+        "Inventory_filter" : "#InventoryReportopenSideBarButton",
+        "Inventory_search" : "#InventoryReprtSearchButton",
+         "Inventory_view" : "#InventoryReportViewDetailedinventoryReportButton",
+         "Inventory_name" : "th#InventoryReportInventoryNameColumn",
+         "Inventory_group" : "span.e-ddl.e-lib.e-input-group.e-control-container.e-control-wrapper.InventoryReportInventoryGroup.e-valid-input.valid",
+         "Inventory_item" : "span.e-ddl.e-lib.e-input-group.e-control-container.e-control-wrapper.CommonInvenotoryDropdownList",
+         "enteritemname": "//input[@class='e-input-filter e-input e-lib e-keyboard']",
+         "billno":"#DetailedInventoryReportGridBillNoColumn"
+    },
+    "customer_ledger":{
+        "account_ledger": "#NavbarReportsMenuAccountLedgerModule",
+        "customer_ledger" : "#NavbarReportsMenuAccountLedgerModuleCustomerAccountLedge",
+        "customer_ledger_filter" : "#AccountLedgerReportOpenSidebarButton",
+        "customer_ledger_search" : "#AccountLedgerReportSearchButton",
+        "bill" : "#AccountLedgerReportGridTransactionNumberColumn"
+    },
+    "Company_Dropdown": "span.e-ddl.e-lib.e-input-group.e-control-container.e-control-wrapper.e-valid-input",
+  "Company_Dropdown_Two" : "(//span[@class='e-ddl e-lib e-input-group e-control-container e-control-wrapper e-valid-input'])[1]",
+  "Change_Btn": "//button[@class='btn btn-primary']"
+}

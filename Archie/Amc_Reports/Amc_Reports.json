@@ -1,0 +1,28 @@
+{
+
+    "Amcpage":"#NavbarReportsMenuAMCInvoiceReport",
+    "backbutton":"#CustomerAMCReportBackButton",
+    "Pdfbutton":"#CommonPDFDownloadButton",
+    "filterbutton":"#CustomerAMCReportOpenSidebarButton",
+    "InvoiceNo":"th#CustomerAMCReportInvoiceNoColumn",
+    "Billdate":"#CustomerAMCReportBillDateColumn",
+    "companyname":"#CustomerAMCReportCompanyNameColumn",
+    "customername":"th#CustomerAMCReportCustomerNameColumn",
+    "contractname":"#CustomerAMCReportContractNameColumn",
+    "technicianname":"#CustomerAMCReportTechnicianNameColumn",
+    "paytype":"#CustomerAMCReportPayTypeColumn",
+    "fromdate":"#CustomerAMCReportFromDateColumn",
+    "todate":"#CustomerAMCReportToDateColumn",
+    "noOfservice":"#CustomerAMCReportNoOfServiceColumn",
+    "Remainingservice":"#CustomerAMCReportNoOfRemainingServiceColumn",
+    "status":"#CustomerAMCReportStatusColumn",
+    "netamount":"#CustomerAMCReportNetAmountColumn",
+    "date":"#CustomerAMCReportDatePickerForFilter",
+    "techniciandropdown":"span.e-ddl.e-lib.e-input-group.e-control-container.e-control-wrapper.style-size.CustomerAMCReportTechnicianName.valid",
+    "customerdropdown": "span.e-ddl.e-lib.e-input-group.e-control-container.e-control-wrapper.e-multi-column.CommonCustomerDropdownCustomerId",
+    "entercustomername": "//input[@class='e-input-filter e-input e-lib e-keyboard']",
+    "Amcradiobutton":"#CustomerAMCReportAMCStatus",
+    "searchbutton":"#CustomerAMCReportSearchButton",
+    "resetbutton":"#CustomerAMCReportResetButton",
+    "closebutton":"#CustomerAMCReportCloseSidebarButton"
+}

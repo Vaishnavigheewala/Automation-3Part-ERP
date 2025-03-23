@@ -1,0 +1,32 @@
+{
+    "verifyserviceticket":{
+        "service":"#NavbarTransactionMenuServiceModule",
+        "servicetickets":"#NavbarTransactionMenuServiceModuleServiceTicketPage",
+        "datepicker": "span.e-control-wrapper.e-date-range-wrapper.e-control-container.e-date-range-container.e-valid-input.e-input-group.style-size.e-right",
+        "deliveryaddressdropdown" : "span.e-ddl.e-lib.e-input-group.e-control-container.e-control-wrapper.style-size.ServiceTicketDeliveryAddress",
+        "customerdropdown": "span.e-ddl.e-lib.e-input-group.e-control-container.e-control-wrapper.e-multi-column.CommonCustomerDropdownCustomerId",
+        "entercustomername": "//input[@class='e-input-filter e-input e-lib e-keyboard']",
+        "pdfexportbutton": "#CommonPDFDownloadButton",
+        "addnewbutton": "#ServiceTicketAddNewButton",
+        "searchbutton" : "#ServiceTicketListSearchButton",
+        "resetbutton": "#ServiceTicketListResetButton"
+    },
+    "Grid":{
+        "TicketNo":"#ServiceTicketTicketNoColumn",
+        "ServiceDate":"#ServiceTicketFormattedCompletedDateColumn",
+        "Customer":"#ServiceTicketCustomerNameColumn",
+        "Address":"#ServiceTicketAddressColumn",
+        "TechnicianName":"#ServiceTicketTechnicianNameColumn",
+        "PaymentType":"#ServiceTicketPayTypeColumn",
+        "ServiceType":"#ServiceTicketServiceTypeColumn",
+        "Amount":"#ServiceTicketNetAmountColumn",
+        "Completed": "#ServiceTicketStatusNameColumn",
+        "Action": "#ServiceTicketActionColumn",
+        "viewlink": "#ServiceTicketViewButton",
+        "invoicelink": "#ServiceTicketInvoiceButton",
+        "invoiceno" :"#ServiceTicketInvoicePopupNoButton",
+        "invoiceyes": "#ServiceTicketInvoicePopupYesButton",
+        "entryClosebutton":"#ServiceTicketEntryCloseButton",
+        "viewclosebutton":"#CashLedgerViewCloseButton"
+    }
+}
