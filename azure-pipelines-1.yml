@@ -1,0 +1,87 @@
+# Azure DevOps Pipeline for Playwright (Runs Only 32 spec.js Files)
+
+trigger:
+- Developement-Automation
+
+pool:
+  vmImage: ubuntu-latest
+
+steps:
+- task: NodeTool@0
+  inputs:
+    versionSpec: '20.x'
+  displayName: 'Install Node.js'
+
+# Install dependencies
+- script: npm ci
+  displayName: 'Install Dependencies'
+
+# Install Chromium for Playwright
+- script: npx playwright install chromium
+  displayName: 'Install Chromium Browser'
+
+# Clean old test report
+- script: rm -f results.xml
+  displayName: 'Clean Old Test Report'
+
+# ✅ Run Playwright Tests (Only 32 spec.js Files)
+- script: |
+    sudo apt-get install -y xvfb  # Install X Virtual Framebuffer
+    xvfb-run --auto-servernum -- npx playwright test \
+    tests/01_Broker.spec.js tests/02_Inventory.spec.js tests/03_City.spec.js tests/04_Bank.spec.js \
+    tests/05_Area.spec.js tests/06_Account.spec.js tests/07_GSTSale.spec.js tests/08_SAC_SalesReturn.spec.js \
+    tests/09_SAC_ProformaSale.spec.js tests/10_SAC_Purchase.spec.js tests/11_SAC_EditPurchase.spec.js \
+    tests/12_SAC_PurchaseReturn.spec.js tests/13_SAC_Debitnote.spec.js tests/14_SAC_CreditNote.spec.js \
+    tests/15_SAC_AMC_with_GST.spec.js tests/16_SAC_AMCwithGSTAdd.spec.js tests/17_SAC_AMC_With_GST_Edit.spec.js \
+    tests/18_SAC_CashLedger.spec.js tests/19_SAC_EditCashLedger.spec.js tests/20_SAC_BankLedger.spec.js \
+    tests/21_SAC_BankLedgerEdit.spec.js tests/22_SAC_Reports.spec.js tests/23_SAC_GSTR_Reports.spec.js \
+    tests/24_SAC_DeleteLedger.spec.js tests/25_SAC_DeletePurchase.spec.js tests/26_SAC_DeleteAMC.spec.js \
+    tests/27_SAC_DeleteSale.spec.js tests/28_InventoryMerge.spec.js tests/29_Customer_Merge.spec.js \
+    tests/30_GST_bill_Update.spec.js tests/31_CustomerQuickView.spec.js tests/32_Update_Billing_Address.spec.js \
+    --workers=6 | tee playwright-output.log
+  displayName: 'Run Playwright Tests (Only 32 spec.js Files)'
+  timeoutInMinutes: 60  # Ensure tests complete in 60 minutes
+
+# Debugging: List Files
+- script: ls -l $(System.DefaultWorkingDirectory)
+  displayName: 'List Files for Debugging'
+
+# Debugging: Check Test Output
+- script: cat playwright-output.log
+  displayName: 'Debug Test Output'
+
+# ✅ Publish Playwright JUnit Test Results
+- task: PublishTestResults@2
+  displayName: 'Publish Playwright JUnit Test Results'
+  inputs:
+    searchFolder: '$(System.DefaultWorkingDirectory)'
+    testResultsFormat: 'JUnit'
+    testResultsFiles: 'results.xml'
+    mergeTestResults: true
+    failTaskOnFailedTests: true
+    testRunTitle: 'Playwright Tests'
+  condition: succeededOrFailed()
+
+# ✅ Publish Playwright HTML Report as an Artifact
+- task: PublishPipelineArtifact@1
+  displayName: 'Publish Playwright HTML Report'
+  inputs:
+    targetPath: '$(System.DefaultWorkingDirectory)/playwright-report'
+    artifact: 'playwright-html-report'
+    publishLocation: 'pipeline'
+  condition: succeededOrFailed()
+
+# ✅ Generate Allure Report
+- script: |
+    npx allure generate $(System.DefaultWorkingDirectory)/allure-results --clean -o $(System.DefaultWorkingDirectory)/allure-report
+  displayName: 'Generate Allure Report'
+  continueOnError: true  # Ensure pipeline does not fail if Allure report generation fails
+
+# ✅ Publish Allure Report as an Artifact
+- task: PublishPipelineArtifact@1
+  displayName: 'Publish Allure Report'
+  inputs:
+    targetPath: '$(System.DefaultWorkingDirectory)/allure-report'
+    artifact: 'allure-html-report'
+    publishLocation: 'pipeline'
+  condition: succeededOrFailed()

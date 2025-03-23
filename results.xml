@@ -1,0 +1,133 @@
+<testsuites id="" name="" tests="7" failures="0" skipped="0" errors="0" time="184.63058600000002">
+<testsuite name="48_Archie_CashLedger.spec.js" timestamp="2025-03-19T09:37:08.085Z" hostname="chromium" tests="7" failures="0" skipped="0" time="180.324" errors="0">
+<testcase name="verify CashLedger page" classname="48_Archie_CashLedger.spec.js" time="30.524">
+<system-out>
+<![CDATA[Step 1: Login to Shree Aqua Care
+Step 2: Dashboard Page displayed
+Transaction Menu Clicked
+Step 4: Sucessfully Clicked on Transaction Menu
+Pagination Available =  [33mtrue[39m
+#CashLedgerListVoucherNoColumn visible: true
+#CashLedgerListBillNoColumn visible: true
+#CashLedgerListVoucherDateColumn visible: true
+#CashLedgerListAccountNameColumn visible: true
+#CashLedgerListNatureTypeColumn visible: true
+#CashLedgerListNetAmountColumn visible: true
+#CashLedgerListActionColumn visible: true
+#CashLedgerListViewButton visible: true
+PDF download triggered.
+add new triggered.
+close button triggered.
+view link verified
+
+[[ATTACHMENT|test-results\48_Archie_CashLedger-verify-CashLedger-page-chromium\test-finished-1.png]]
+]]>
+</system-out>
+</testcase>
+<testcase name="Verify Add CashLedger page For Customer" classname="48_Archie_CashLedger.spec.js" time="37.512">
+<system-out>
+<![CDATA[Step 1: Login to Shree Aqua Care
+Step 2: Dashboard Page displayed
+Transaction Menu Clicked
+Step 4: Sucessfully Clicked on Transaction Menu
+voucher number Not Editable: true
+defaulting to current date: 19-03-2025
+Selecting first bill: ST2601
+Net Outstanding Amount: 937.50
+bill  Amount: 937.50
+Outstanding Amount: 937.50
+Filling Received Amount with: 937.5
+balance Amount : 
+exchange Amount : 
+Selecting first bill: IN30502
+Filling Received Amount with: 6000.00
+Selecting first bill: IN30502
+Duplicate Bill Number is Cancle by Cancel button in Grid
+Bill Delete in Grid through Delete button in Outstanding details
+Delete Bill cancel in Grid through Cancel button in Outstanding details
+
+[[ATTACHMENT|test-results\48_Archie_CashLedger-Verify-Add-CashLedger-page-For-Customer-chromium\test-finished-1.png]]
+]]>
+</system-out>
+</testcase>
+<testcase name="Add CashLedger for Service Ticket &amp; AMC" classname="48_Archie_CashLedger.spec.js" time="37.234">
+<system-out>
+<![CDATA[Step 1: Login to Shree Aqua Care
+Step 2: Dashboard Page displayed
+Transaction Menu Clicked
+Step 4: Sucessfully Clicked on Transaction Menu
+Selecting first bill: ST2601
+Net Outstanding Amount: 937.50
+bill  Amount: 937.50
+Outstanding Amount: 937.50
+amount [33m937.5[39m
+Filling Received Amount with: 468.75
+Selecting first bill: IN30502
+Net Outstanding Amount: 12000.00
+bill  Amount: 12000.00
+Outstanding Amount: 12000.00
+amount [33m12000[39m
+Filling Received Amount with: 12000
+
+[[ATTACHMENT|test-results\48_Archie_CashLedger-Add-CashLedger-for-Service-Ticket-AMC-chromium\test-finished-1.png]]
+]]>
+</system-out>
+</testcase>
+<testcase name="Outstanding report for customer" classname="48_Archie_CashLedger.spec.js" time="14.594">
+<system-out>
+<![CDATA[Step 1: Login to Shree Aqua Care
+Step 2: Dashboard Page displayed
+Reports Menu Clicked
+Step 4: Sucessfully Clicked on Reports Menu
+No sales/AMCs with 0 pending payment displayed in the report.
+Verification completed successfully.
+
+[[ATTACHMENT|test-results\48_Archie_CashLedger-Outstanding-report-for-customer-chromium\test-finished-1.png]]
+]]>
+</system-out>
+</testcase>
+<testcase name="Customer Account Ledger report for customer" classname="48_Archie_CashLedger.spec.js" time="13.752">
+<system-out>
+<![CDATA[Step 1: Login to Shree Aqua Care
+Step 2: Dashboard Page displayed
+Reports Menu Clicked
+Step 4: Sucessfully Clicked on Reports Menu
+Customer Account Ledger Report verification completed successfully.
+
+[[ATTACHMENT|test-results\48_Archie_CashLedger-Custo-025e3--Ledger-report-for-customer-chromium\test-finished-1.png]]
+]]>
+</system-out>
+</testcase>
+<testcase name="Verify Cash Ledger Report in Archie" classname="48_Archie_CashLedger.spec.js" time="8.665">
+<system-out>
+<![CDATA[Step 1: Login to Shree Aqua Care
+Step 2: Dashboard Page displayed
+Reports Menu Clicked
+Step 4: Sucessfully Clicked on Reports Menu
+
+[[ATTACHMENT|test-results\48_Archie_CashLedger-Verify-Cash-Ledger-Report-in-Archie-chromium\test-finished-1.png]]
+]]>
+</system-out>
+</testcase>
+<testcase name="Edit Cash Ledger Page" classname="48_Archie_CashLedger.spec.js" time="38.043">
+<system-out>
+<![CDATA[Step 1: Login to Shree Aqua Care
+Step 2: Dashboard Page displayed
+Transaction Menu Clicked
+Step 3: Sucessfully navigate to CashLedger.
+full Payment Ledger Open & Colsed
+Edit Button not found in any View links (Payment is full/ All Payments are full).
+Customer Searched.
+Customer Link opend.
+Disabled Fields Voucher_No Voucher_Date Payment_Nature Payment_Mode User = [33mtrue[39m [33mfalse[39m [33mtrue[39m [33mtrue[39m
+Customer Cash Leder Edited with only Receive Amount.
+Outstanding Report Overall Balance: 180296.87
+Customer outstanding Report.
+Cash Ledger Report for customer.
+
+[[ATTACHMENT|test-results\48_Archie_CashLedger-Edit-Cash-Ledger-Page-chromium\test-finished-1.png]]
+]]>
+</system-out>
+</testcase>
+</testsuite>
+</testsuites>

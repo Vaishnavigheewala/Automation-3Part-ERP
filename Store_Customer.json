@@ -1,0 +1,20 @@
+{
+   "Broker_Page": {
+      "Customer_Name": "Customer 2025-02-11 08:54:00",
+      "Vendor_Name": "Vendor 2025-02-11 08:54:00",
+      "Ledger_Bill_Number": "LM10702",
+      "Broker_Name": "BrokerGqBMan",
+      "Broker_Mobile": "2574260512",
+      "Broker_Address": "iygDzPuDnH",
+      "Inventory_Name": "WSKVqlwnelfBMIt"
+   },
+   "City_Page": {
+      "City_Name": "CityGqBMan"
+   },
+   "Bank_Page": {
+      "Bank_Name": "BankGqBMan"
+   },
+   "Area_Page": {
+      "Area_Name": "AreaGqBMan"
+   }
+}
