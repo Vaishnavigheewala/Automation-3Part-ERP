@@ -1,0 +1,70 @@
+{
+    "transactionmenu":"#NavbarTransactionMenu",
+    "sales":"#NavbarTransactionMenuSalesModule",
+    "hufsyclesales":"#NavbarTransactionMenuSalesModuleHUFCycleSalesPage_HUFToCustomerSales",
+    "directhufsales":"#NavbarTransactionMenuSalesModuleDirectHUFSalesPage",
+    "BankLedger": {
+        "Ledger": "#NavbarTransactionMenuLedgerModule",
+        "BankLedgerpage": "#NavbarTransactionMenuLedgerModuleBankLedgerPage",
+        "AddnewButton": "#BankLedgersAddlabel",
+        "VoucherNoField": "#BankLedgerEntryVoucher",
+        "datepickr": "#CommonDatePicker",
+        "NetAmount": "#BankLedgerEntryamcNetAmountReference1",
+        "ResetButton": "#BankLedgerEntryResetButton",
+        "CloseButton": "#BankLedgerEntryCloseButton",
+        "SubmitButton": "#BankLedgerEntrySubmitButton",
+        "paymentNatureDropdown": "span.e-ddl.e-lib.e-input-group.e-control-container.e-control-wrapper.valid",
+        "paymentMethodDropdown": "span.e-ddl.e-lib.e-input-group.e-control-container.e-control-wrapper.BankLedgerEntryDropdown.valid",
+        "bankChargesTextbox": "#BankLedgerEntryBankChargeAmt",
+        "customerdropdown": "span.e-ddl.e-lib.e-input-group.e-control-container.e-control-wrapper.e-multi-column.CommonCustomerDropdownCustomerId",
+        "entercustomername": "//input[@class='e-input-filter e-input e-lib e-keyboard']",
+        "TransactionIDTextbox": "#BankLedgerEntryTransactionNumber",
+        "bankname": "span.e-ddl.e-lib.e-input-group.e-control-container.e-control-wrapper.BankLedgerEntryDropdown2.valid",
+        "bankactno": "#BankLedgerEntryBankAccNo",
+        "chequeno": "#BankLedgerEntryChequeNo",
+        "totalreceivedamountTbox":"#BankLedgerEntryTotalReceivedAmount",
+        "addgridbtn": "#BankLedgerEntryGridAddButton",
+        "deletegridbtn": "#BankLedgerEntryDeleteButton",
+        "cancelgridbtn": "#BankLedgerEntryCancelButton",
+        "updategridbtn": "#BankLedgerEntryUpdateButton",
+        "billtype": "span.e-ddl.e-lib.e-input-group.e-control-container.e-control-wrapper.BankLedgerEntryStInvoiceTypeId",
+        "selectsales": "//li[normalize-space()='Sales']",
+        "selectGSTAMC": "//li[normalize-space()='GSTAmc']",
+        "billnumber": "span.e-ddl.e-lib.e-input-group.e-control-container.e-control-wrapper.BankLedgerEntryStInvoiceId",
+        "billno": "td#BankLedgerEntryisAllowAddingEditInGridColumn",
+        "netoutstandingamount": "td#BankLedgerEntryNetOutstandingAmtColumn",
+        "enterReceiveamt": "#RecAmt",
+        "Receivedamt": "td#BankLedgerEntryRecAmtColumn",
+        "updateok": "//button[normalize-space()='OK']",
+        "customeringrid":"#BankLedgersCustomerNameColumn"
+
+    },
+
+    "report": "#NavbarReportsMenu",
+    "companydropdown": "span.e-ddl.e-lib.e-input-group.e-control-container.e-control-wrapper.OutstandingReportCompanyNameForFilter.valid",
+    "companychange": "(//span[@class='e-ddl e-lib e-input-group e-control-container e-control-wrapper e-valid-input'])",
+    "selectSAC": "//li[normalize-space()='Shree Aqua Care']",
+    "selectCashonly": "//li[normalize-space()='Cash Only']",
+    "selectKBT": "//li[normalize-space()='Kishorbhai B Thakkar']",
+    "yesbtncompnaychange": "//button[@class='btn btn-primary']",
+
+    "outstandingreport": {
+        "outstanding": "#NavbarReportsMenuOutstaningReport",
+        "filterbutton": "#OutstandingReportOpenSidebarButton",
+        "SearchButton": "#OutstandingReportSearchButton"
+    },
+    "customeraccLedger": {
+        "accountLedger": "#NavbarReportsMenuAccountLedgerModule",
+        "customeraccount": "#NavbarReportsMenuAccountLedgerModuleCustomerAccountLedge",
+        "filterbutton": "#AccountLedgerReportOpenSidebarButton",
+        "Searchbutton": "#AccountLedgerReportSearchButton"
+    },
+    "LedgerReport": {
+        "ledgerpage": "#NavbarReportsMenuLedgerModule",
+        "bankledgerpage": "#NavbarReportsMenuLedgerModuleBankLedgerReport",
+        "filterbutton": "#BankLedgerReportOpenSidebarButton",
+        "paymentnature": "span.e-ddl.e-lib.e-input-group.e-control-container.e-control-wrapper.BankLedgerReportNatureType.valid",
+        "selectreceive": "//li[normalize-space()='Receive']",
+        "searchbutton": "#BankLedgerReportSearchButton"
+    }
+}

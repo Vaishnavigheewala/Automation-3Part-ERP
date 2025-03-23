@@ -1,0 +1,31 @@
+{
+    "reportsmenu": {
+        "reports": "#NavbarReportsMenu",
+        "sales_menu": "#NavbarReportsMenuSalesModule",
+        "directHUF" : "#NavbarReportsMenuSalesModuleDirectHUFSalesReport"
+    },
+    "direct_huf" : {
+        "directHUF_filter" : "#DirectHUFSalesReportOpenSidebarButton",
+        "directHUF_search" : "#DirectHUFSalesReportSearchButton",
+        "customerdropdown": "span.e-ddl.e-lib.e-input-group.e-control-container.e-control-wrapper.e-multi-column.CommonCustomerDropdownCustomerId",
+        "entercustomername": "//input[@class='e-input-filter e-input e-lib e-keyboard']",
+        "huf_back" : "#DirectHUFSalesReportBackButton",
+        "huf_pdf" : "#CommonPDFDownloadButton",
+        "filter_reset" : "#DirectHUFSalesReportResetButton",
+        "filter_close" : "#DirectHUFSalesReportCloseSidebarbutton",
+        "technician" : "span.e-ddl.e-lib.e-input-group.e-control-container.e-control-wrapper.style-size.DirectHUFSalesReportTechnicianName.valid"
+    },
+    "direct_hufgrid" : {
+        "bill_no" : "th#DirectHUFSalesReportBollNumberColumn",
+        "customer" : "th#DirectHUFSalesReportSalesDateColumn",
+        "bill_date" : "th#DirectHUFSalesReportSalesDateColumn",
+        "broker_name" : "th#DirectHUFSalesReportBrokerNameColumn",
+        "technician_name" : "th#DirectHUFSalesReportTechnicianNameColumn",
+        "qty" : "th#DirectHUFSalesReportTotalQuantityColumn",
+        "Gross_amt" : "th#DirectHUFSalesReportGrossAmountColumn",
+        "Addless" : "th#DirectHUFSalesReportAddLessAmountColumn",
+        "Roundoff" : "th#DirectHUFSalesReportRoundOffAmountColumn",
+        "net_amt" : "th#DirectHUFSalesReportNetAmountColumn",
+        "remark" : "th#DirectHUFSalesReportRemarkColumn"
+    }
+}

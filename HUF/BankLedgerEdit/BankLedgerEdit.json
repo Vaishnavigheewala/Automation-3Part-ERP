@@ -1,0 +1,65 @@
+{
+    "viewLink": "#ViewLedgerDetails",
+    "ledger": "#NavbarTransactionMenuLedgerModule",
+    "bank_ledger": "#NavbarTransactionMenuLedgerModuleBankLedgerPage",
+    "customerdropdown": "span.e-ddl.e-lib.e-input-group.e-control-container.e-control-wrapper.e-multi-column.CommonCustomerDropdownCustomerId",
+    "entercustomername": "//input[@class='e-input-filter e-input e-lib e-keyboard']",
+    "searchbutton": "#BankLedgersSearch",
+    "viewpage": {
+        "editbutton": "#BankLedgerViewEditButton",
+        "receivedamt": "td#BankLedgerViewReceivedAmountColumn",
+        "netoutstanding": "td#BankLedgerViewNetOutstandingAmountColumn",
+        "paymentmethod": "span.e-ddl.e-lib.e-input-group.e-control-container.e-control-wrapper.BankLedgerEntryDropdown.valid",
+        "TransactionNo": "#BankLedgerEntryTransactionNumber",
+        "yesbutton": "#BankLedgerpartialPaymentYesbutton",
+        "addbutton": "#BankLedgerEntryGridAddButton",
+        "billtype": "span.e-ddl.e-lib.e-input-group.e-control-container.e-control-wrapper.BankLedgerEntryStInvoiceTypeId.valid",
+        "selectsales": "//li[normalize-space()='Sales']",
+        "billno": "td#BankLedgerEntryisAllowAddingEditInGridColumn",
+        "billnumber": "span.e-ddl.e-lib.e-input-group.e-control-container.e-control-wrapper.BankLedgerEntryStInvoiceId.valid",
+        "deletebutton": "#BankLedgerEntryDeleteButton",
+        "enterReceiveamt": "#RecAmt",
+        "Receivedamt": "td#BankLedgerEntryRecAmtColumn",
+        "updatebutton": "#BankLedgerEntryUpdateButton",
+        "updateok": "//button[normalize-space()='OK']",
+        "balance": "td#BankLedgerEntryRemainingBalColumn",
+        "submitbutton": "#BankLedgerEntrySubmitButton",
+        "cutmername": "#BankLedgersCustomerNameColumn",
+        "accountgroup": "span.e-ddl.e-lib.e-input-group.e-control-container.e-control-wrapper.BankLedgersAccountGroup.valid",
+        "vendordropdown": "span.e-ddl.e-lib.e-input-group.e-control-container.e-control-wrapper.e-multi-column.CommonVendorDropdownCustomerId",
+        "cancelbutton": "#BankLedgerEntryCancelButton"
+    },
+    "outstandingreport": {
+        "outstanding": "#NavbarReportsMenuOutstaningReport",
+        "filterbutton": "#OutstandingReportOpenSidebarButton",
+        "SearchButton": "#OutstandingReportSearchButton",
+        "BillAmount": "#OutstandingReportBillAmountColumn",
+        "totalreceiveamt": "#OutstandingReportTotalReceivedAmountColumn",
+        "ExchangeAmt": "#OutstandingReportExchangeAmountColumn",
+        "balance": "#OutstandingReportRemainBalanceAmountColumn"
+    },
+    "customeraccLedger": {
+        "reports": "#NavbarReportsMenu",
+        "accountLedger": "#NavbarReportsMenuAccountLedgerModule",
+        "customeraccount": "#NavbarReportsMenuAccountLedgerModuleCustomerAccountLedge",
+        "filterbutton": "#AccountLedgerReportOpenSidebarButton",
+        "Searchbutton": "#AccountLedgerReportSearchButton",
+        "date": "td#AccountLedgerReportGridTransactionDateColumn",
+        "customername": "td#AccountLedgerReportGridCustomerNameColumn",
+        "table": "table#AccountLedgerReportGrid_header_table",
+        "balance": "#AccountLedgerReportGridcolGroup"
+    },
+    "payablereport": {
+        "reportpayble": "#NavbarReportsMenuPayableReport",
+        "FilterbtnpurchasePayblereport": "#PayableReportOpenSidebarButton",
+        "FiltervenpurchasePayble": "span.e-ddl.e-lib.e-input-group.e-control-container.e-control-wrapper.e-multi-column.PayableReportVendorName.valid",
+        "SearchbtnpurchasePayble": "#PayableReportSearchButton"
+    },
+    "vendoraccountledger": {
+        "accledger":"#NavbarReportsMenuAccountLedgerModule",
+        "reportvendoraccountledger": "#NavbarReportsMenuAccountLedgerModuleVendorAccountLedgerReport",
+        "Filterbtnpurchasevendorledgerreport": "#VendorAccountLedgerReportOpenSidebarButton",
+        "Filtervenpurchasevendorledger": "span.e-ddl.e-lib.e-input-group.e-control-container.e-control-wrapper.e-multi-column.CommonVendorDropdownCustomerId",
+        "Searchbtnpurchasevendorledger": "#VendorAccountLedgerReportSearchButton"
+    }
+}

@@ -1,0 +1,180 @@
+{
+  "ABC": {
+    "abc": "abc_m6z1xtd7aH3tFyGtFQ",
+    "xyz": "",
+    "vv": "Vivek"
+  },
+  "Customer": {
+    "Customer_GSTI_No": "",
+    "Customer_Client_Code": "",
+    "Customer_Email": "customer@gmail.com",
+    "Customer_Account_Name": "2025-03-19_14:35:53_Customer",
+    "Customer_User_Mobile": "",
+    "Customer_User_Alter_Mobile": "",
+    "Customer_Pincode": "430099",
+    "Customer_Address": "",
+    "Area": "CITYLIGHT",
+    "City": "SURAT",
+    "State": "GUJARAT",
+    "GUJARAT_GST": "24AAACH7409R2Z6",
+    "Out_Of_Gujarat": "TAMIL NADU",
+    "OOG_GST_No": "33AAACH7409R1Z8"
+  },
+  "Vendor": {
+    "Vendor": "",
+    "Vendor_Client_Code": "",
+    "Vendor_Email": "customer@gmail.com",
+    "Vendor_Account_Name": "2025-03-19_14:37:59_Vendor",
+    "Vendor_User_Mobile": "",
+    "Vendor_User_Alter_Mobile": "",
+    "Vendor_Pincode": "430099",
+    "Vendor_Address": "",
+    "Area": "CITYLIGHT",
+    "City": "SURAT",
+    "State": "GUJARAT",
+    "GUJARAT_GST": "24AAACH7409R2Z6",
+    "Out_Of_Gujarat": "TAMIL NADU",
+    "OOG_GST_No": "33AAACH7409R1Z8"
+  },
+  "Sales": {
+    "Bill_No": "SI433",
+    "Date": ""
+  },
+  "Purchase": {
+    "Regular_Bill_No": "PI30463",
+    "Bill_No": "VB2032",
+    "Net_Amount": "4480",
+    "Total_Tax_Value": "",
+    "Date": "",
+    "V_Bill_No": "VB2032"
+  },
+  "Cash_Sales": {
+    "Bill_No": "IN10439"
+  },
+  "Cash_Purchase": {
+    "Bill_No": "PI30413"
+  },
+  "SAC_Company": {
+    "Purchase_Return": {
+      "Bill_No": "PR82",
+      "Net_Amount": "105400",
+      "Total_Tax_Value": "16,077.97"
+    },
+    "Credit_Note": {
+      "Net_Amount": "",
+      "Total_Tax_Value": "",
+      "Bill_No": ""
+    }
+  },
+  "Bank_Ledger": {
+    "Voucher_No": "",
+    "Bill_Type": "Amc",
+    "Payment_Method": "UPI",
+    "Bank_Name": "Bank of Baroda",
+    "Bank_Account_No": "120139000100000111",
+    "Cheque_No": "432432",
+    "Transaction_ID": "32423qweqwqe21321313",
+    "Bank_Charges": "12",
+    "Total_Receive_Amt": "100",
+    "Receive_Amt": "100",
+    "Dublicate_Amt": "50"
+  },
+  "Cash_Ledger": {
+    "Purchase_Ledger_Part_Pay": "LM30812",
+    "Latest_Part_Voucher_No": "LM30823",
+    "Part_Voucher_No": "LM30816",
+    "Voucher_No": "LM30824",
+    "Bill_Type": "CashSales",
+    "Total_Receive_Amt": "10",
+    "Receive_Amt": "10",
+    "Dublicate_Amt": "5"
+  },
+  "Customer_User_Mobile": "8041768809",
+  "Customer_User_Alter_Mobile": "1343726989",
+  "Customer_Name": "automation_SAC",
+  "Broker_Name": "automationbroker",
+  "Address_User": "Address_m8fp6gu6JfNk8mIu6B",
+  "Vendor_Name": "automationvendor_11_02",
+  "Address": "",
+  "Bill_No": "",
+  "Raw_Inventory": {
+    "Inventory_Name": "VaishnaviRaw 27-01",
+    "Inventory_Warranty": "",
+    "Inventory_Unit": "",
+    "Inventory_Rate": "",
+    "Inventory_HSN_Code": "",
+    "Taxable": "",
+    "GST": "",
+    "CGST": "",
+    "SGST": "",
+    "IGST": ""
+  },
+  "Broker": {
+    "Broker_Name": "BrokerGLXgIu",
+    "Broker_Mobile": "2622300735",
+    "Broker_Address": "BrokerOpFbgn"
+  },
+  "Inventory": {
+    "Finish Material": "SMEG With GST",
+    "Inventory_Name": "sBCuIQFinish",
+    "InventoryRO_Name": "KnjnwjFinishRO",
+    "update_inventory": "dqyzMgUpdateINV",
+    "Raw_inventory": "pqLFKiRawINV",
+    "NonGST_Raw_Inventory": "ABXVtVRawNoGST",
+    "UpdateRaw_Inventory": "jAYRrIupdateRaw",
+    "General_Inventory": "GvkaDoGeneralINV",
+    "NoDiscount_Inventory": "mslKswGeneralNoDis",
+    "Update_General": "oPECASupdateGeneral",
+    "InventoryNONGST_Name": "qWeLOyFinishNONGST",
+    "Finish_NonGst": "ARnJavFinish_NonGst"
+  },
+  "Technician": {
+    "Technician_Name": "TechnicianZHjgkP",
+    "Mobile": "1288725786",
+    "Address": "m8lbe8f0dAYfmlSlxa"
+  },
+  "HUF_Sales_Cycle": {
+    "CashOnly_Bill_No": "SI51317",
+    "SAC_Bill_No": "SI51318",
+    "HUF_Bill_No": "SI170",
+    "SAC_Customer_HUF": "KISHOR BHAVANJI THAKKAR (HUF)",
+    "Inventory_Group": "FinishMaterial",
+    "Qut": "1",
+    "Add_Less": "100",
+    "Round_Off": ""
+  },
+  "AmcContract": {
+    "AmcContractName": "AmcContractKlMosk"
+  },
+  "HUF_Company": {
+    "Cash_Ledger": {
+      "Voucher_No": "LM30889"
+    },
+    "Bank_Ledger": {
+      "": ""
+    },
+    "Delete_Ledger": {
+      "Voucher_No": "LM30913"
+    }
+  },
+  "City": {
+    "City_Name": "aCityzSlRol",
+    "update_city": "aupdateCityCPcPGl"
+  },
+  "Bank": {
+    "Bank_Name": "Bank Of TMKywn",
+    "updateBank_Name": "Bank of HIOFYj"
+  },
+  "Area": {
+    "Area_Name": "vMyTMp",
+    "update_Area": "DgZacr"
+  },
+  "Address_Vendor": "Address_m8fp969pybgAI7arXT",
+  "Vendor_User_Mobile": "7976971512",
+  "Vendor_User_Alter_Mobile": "4072601052",
+  "Credit_Note": {
+    "Net_Amount": "105400",
+    "Total_Tax_Value": "16,077.97",
+    "Bill_No": "CN114"
+  }
+}

@@ -1,0 +1,69 @@
+{
+  "editsale": {
+    "sales": "#NavbarTransactionMenuSalesModule",
+    "directhufsalespage": "#NavbarTransactionMenuSalesModuleDirectHUFSalesPage",
+    "viewlink": "a#DirectHUFSalesViewButton",
+    "editbtn": "#DirectHUFSalesViewEditButton",
+    "transcation_menu": "#NavbarTransactionMenu",
+    "clickquantity": "td#DirectHUFSalesEntryQtyColumn",
+    "enterquantity": "#Qty",
+    "clickrate": "td#DirectHUFSalesEntryGrossRateColumn",
+    "enterrate": "#GrossRate",
+    "update_button": "#DirectHUFSalesEntryInventoryDetailGridUpdateButton",
+    "updateok": "//button[normalize-space()='OK']",
+    "submitbtn": "#DirectHUFSalesEntrySubmitButton",
+    "ledger_menu": "#NavbarTransactionMenuLedgerModule",
+    "cash_ledger": "#NavbarTransactionMenuLedgerModuleCashLedgerPage",
+    "cash_add": "#CashLedgerListAddNewLedgerButton",
+    "paymentnature": "span.e-ddl.e-lib.e-input-group.e-control-container.e-control-wrapper.CashLedgerEntryPaymentNatureType.valid",
+    "receive_amt": "#CashLedgerEntryTotalReceivedAmount",
+    "add_ledger": "#CashLedgerGridAddButton",
+    "update_ledger": "#CashLedgerGridUpdateButton",
+    "bill_type": "span.e-ddl.e-lib.e-input-group.e-control-container.e-control-wrapper.CashLedgerInvoiceTypeId.valid",
+    "bill_no": "span.e-ddl.e-lib.e-error.e-input-group.e-control-container.e-control-wrapper.CashLedgerBillNoColumn.modified.invalid",
+    "close_ledger": "#CashLedgerEntryCloseButton"
+  },
+  "reports": "#NavbarReportsMenu",
+  "customerdropdown": "span.e-ddl.e-lib.e-input-group.e-control-container.e-control-wrapper.e-multi-column.CommonCustomerDropdownCustomerId",
+  "entercustomername": "//input[@class='e-input-filter e-input e-lib e-keyboard']",
+  "companychange": "(//span[@class='e-ddl e-lib e-input-group e-control-container e-control-wrapper e-valid-input'])",
+  "selectSAC": "//li[normalize-space()='Shree Aqua Care']",
+  "selectCashonly": "//li[normalize-space()='Cash Only']",
+  "selectKBT": "//li[normalize-space()='Kishorbhai B Thakkar']",
+  "yesbtncompnaychange": "//button[@class='btn btn-primary']",
+  "transactionmenu": "#NavbarTransactionMenu",
+  "itemwise": {
+    "sales": "#NavbarReportsMenuSalesModule",
+    "itemwisepage": "#NavbarReportsMenuSalesModuleItemWiseSalesReport",
+    "filterbutton": "#ItemWiseSalesReportOpenSlidebarButton",
+    "searchbutton": "#ItemWiseSalesReportSearchButton"
+  },
+  "salessummary": {
+    "sales": "#NavbarReportsMenuSalesModule",
+    "salessummarypage": "#NavbarReportsMenuSalesModuleSalesSummaryReport",
+    "filterbutton": "#SalesSummaryReportOpenSlidebarButton",
+    "searchbutton": "#SalesSummaryReportSearchButton",
+    "Billnoview": "#SalesSummaryReportRegularBillNumberColumn"
+  },
+  "combinedsale": {
+    "combinedsalepage": "#NavbarReportsMenuSalesModuleCombineSalesSummaryReport",
+    "filterbutton": "#CombinedSalesReportOpenSlidebarButton",
+    "companydropdown": "span.e-ddl.e-lib.e-input-group.e-control-container.e-control-wrapper.CombinedSalesReportCompanyNameForFilter.valid",
+    "searchbutton": "#CombinedSalesReportSearchButton"
+  },
+  "outstandingreport": {
+    "outstanding": "#NavbarReportsMenuOutstaningReport",
+    "filterbutton": "#OutstandingReportOpenSidebarButton",
+    "companydropdown": "span.e-ddl.e-lib.e-input-group.e-control-container.e-control-wrapper.OutstandingReportCompanyNameForFilter.valid",
+    "SearchButton": "#OutstandingReportSearchButton"
+  },
+  "inventorystockreport": {
+    "inventoryStock": "#NavbarReportsMenuInventoryReport",
+    "inventoryfilter": "#InventoryReportopenSideBarButton",
+    "inventorysearchbutton": "#InventoryReprtSearchButton",
+    "inventoryselect": "span.e-ddl.e-lib.e-input-group.e-control-container.e-control-wrapper.CommonInvenotoryDropdownList",
+    "enterInventory": "//input[@class='e-input-filter e-input e-lib e-keyboard']",
+    "FilterInventorygroup": "span.e-ddl.e-lib.e-input-group.e-control-container.e-control-wrapper.InventoryReportInventoryGroup.e-valid-input.valid",
+    "view": "#InventoryReportViewDetailedinventoryReportButton"
+  }
+}
